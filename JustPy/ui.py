@@ -44,8 +44,9 @@ def getCharts(page):
     data = pd.read_csv('http://localhost:1122/.csv?getIncByMonth[]')
     data.jp.plot(0,data.loc[0].index,kind='bar', a=page.divRow1,title='Monthly Option Income',stacking='normal')
   
-    data = pd.read_csv('http://localhost:1122/.csv?getPnlByMonth[]')
-    data.jp.plot(0,data.loc[0].index,kind='bar', a=page.divRow1,title='Monthly Stock Sale',stacking='normal')
+    #data = pd.read_csv('http://localhost:1122/.csv?getPnlByMonth[]')
+    data = pd.read_csv('http://localhost:1122/.csv?getOptIncomeHist[]')
+    data.jp.plot(0,data.loc[0].index,kind='spline', a=page.divRow1,title='Option Income Over Time',stacking='normal')
 
     data = pd.read_csv('http://localhost:1122/.csv?getOptRisk[]')
     data.jp.plot(0,data.loc[0].index,kind='bar', a=page.divRow2,title='Weekly  Option Risk',stacking='normal')
@@ -55,6 +56,9 @@ def getCharts(page):
 
     data = pd.read_csv('http://localhost:1122/.csv?getIncomeRate[]')
     data.jp.plot(0,data.loc[0].index,kind='bar', a=page.divRow3,title='Option and Dividend Rate',stacking='normal')
+    
+    data = pd.read_csv('http://localhost:1122/.csv?getBalanceChart[]')
+    data.jp.plot(0,data.loc[0].index,kind='bar', a=page.divRow3,title='Portfolio Balance',stacking='normal')
 
     data = pd.read_csv('http://localhost:1122/.csv?getSector[]')
     #sector = data.iloc[:,[0]].values

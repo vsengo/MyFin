@@ -246,6 +246,7 @@ if [ 0 < count position_opt_exp;
 
 	update upnl:-1*qty*100*(strike - costBasis) from `CURRENT_OPTION where putcall=`C,qty<0;
 	update upnl:qty*100*(strike - costBasis) from `CURRENT_OPTION where putcall=`C, qty>0;
+	update riskAssigned:`int$100*(strike - Close)%strike from `CURRENT_OPTION;
 	save `$":",.dat.PWD,"/CURRENT_OPTION.csv";
 
 	option_spread:select cnt:count i, totQty:sum qty,qty, strike, totCost:sum cost, cost, totAmount:sum amount, amount, lastPrice, last Close  by sym, expDate, putcall  from CURRENT_OPTION;
@@ -261,7 +262,7 @@ if [ 0 < count position_opt_exp;
 
 	OPTION_STRATEGY:ungroup delete cnt from select from  OPTION_STRATEGY;	
 	update cost:-1.0*cost from `OPTION_STRATEGY where totAmount < 0.0;
-	update upnl:100*((qty*lastPrice) -  qty *cost)  from `OPTION_STRATEGY;
+	update upnl:100*{(( sum y*z) -  sum y*abs x)}'[cost;qty;lastPrice]  from `OPTION_STRATEGY;
 	OPTION_STRATEGY:select strike, last Close, cost, lastPrice,sum upnl,costBasis:first totAmount, qty, breakEven:min strike - first totCost by sym, expDate, putcall, strategy  from OPTION_STRATEGY;
 
 	update roi:-100.0*upnl%costBasis, maxProfit:{100*(abs first y)*((max x) - min x)}'[strike;qty]+costBasis  from `OPTION_STRATEGY where strategy=`DebitSpread;
@@ -272,8 +273,9 @@ if [ 0 < count position_opt_exp;
 	update action:`Cut_Loss from `OPTION_STRATEGY where strategy=`DebitSpread, roi <  -50.0;
 
 	RISK_OPTION:update reason:`Loss_Call from select from CURRENT_OPTION where putcall=`C,strike <= costBasis, upnl<0, qty<0;
-	RISK_OPTION,:update reason:`Assigned_Call from select from CURRENT_OPTION where putcall=`C,strike <= Close, qty<0;
+	/RISK_OPTION,:update reason:`Assigned_Call from select from CURRENT_OPTION where putcall=`C,strike <= Close, qty<0;
 	RISK_OPTION,:update reason:`Assigned_Put from select from CURRENT_OPTION where putcall=`P, Close <= strike;
+	RISK_OPTION,:update reason:`Loss_Shares from select from CURRENT_OPTION where putcall=`C,5 >= abs riskAssigned,qty<0, sym in exec sym from  WATCHLIST where action=`BUY;
 	RISK_OPTION:(`upnl) xasc (`expDate`sym`putcall`strike`Close`costBasis`upnl) xcols RISK_OPTION;
 	RISK_OPTION_TOTAL:select cash:sum risk,  unpl: sum upnl, count i by putcall from RISK_OPTION;
 
@@ -301,7 +303,7 @@ if [ 0 < count position_opt_exp;
 update free_cash:total_cash + opt_cash from `ACCOUNT;
 
 WATCHLIST:WATCHLIST lj 1!select sym, Close, stdClose from quoteStats
-WATCHLIST:WATCHLIST lj 1!select sym, target1yr from  secmaster
+WATCHLIST:WATCHLIST lj 1!select sym, target1yr from secmaster
 WATCHLIST:WATCHLIST lj 1!select sym, curQty:qty, origCost, costBasis from CURRENT_EQTY
 update newQty:curQty - share, newOrigCost:((origCost*curQty) - (share*cost))%(curQty - share), newCostBasis:((costBasis*curQty) - share*cost)%(curQty - share) from `WATCHLIST where action=`SELL;
 update curQty:0.0, origCost:cost, costBasis:0.0 from `WATCHLIST where curQty=0n;
@@ -314,11 +316,9 @@ WATCHLIST_SELL:(select from WATCHLIST where action=`SELL) lj 1!CURRENT_EQTY
 WATCHLIST_SELL:(`roi) xdesc select sym, acc_name, qty, sell:share, origCost, costBasis, Close, upnl, upnlReal, roi from  WATCHLIST_SELL
 
 cash:exec sum total_cash, sum opt_cash from ACCOUNT where not account like "Y*"
-`BALANCE insert (`Cash; `int$first cash`total_cash;0)
-`BALANCE insert (`CoveredCash; `int$first cash`opt_cash;0)
 tmp:exec mktValue: sum share*cost, futureValue:sum share*target1yr  from WATCHLIST where action=`BUY;
 `BALANCE insert (`ToBuy; `int$first tmp`mktValue; `int$first tmp`futureValue)
-
+`BALANCE insert (`Cash; `int$first cash`total_cash;0)
 tmp:exec mktValue: sum share*cost, futureValue:sum share*target1yr  from WATCHLIST where action=`SELL;
 `BALANCE insert (`ToSell; `int$first tmp`mktValue; `int$first tmp`futureValue)
 futureCash:first (exec currentValue from BALANCE where item=`Cash) + (exec currentValue from BALANCE where item=`ToSell) - exec currentValue from BALANCE where item=`ToBuy; 
@@ -327,11 +327,14 @@ update futureValue:futureCash from `BALANCE where item=`Cash;
 tmp:exec sum mktValue, sum invested, futureValue:sum target1yr*qty  from CURRENT_EQTY
 invested:first tmp`invested
 mktValue:first tmp`mktValue
+capital:invested + cash`total_cash
+
 `BALANCE insert (`CurrentMktValue;`int$first tmp`mktValue;`int$first tmp`futureValue)
-`BALANCE insert (`Invested;`int$first tmp`invested;0)
+
 total:(first tmp`mktValue) + first cash`total_cash
 perfutureCash:100.0*((first cash`total_cash) + futureCash )%(total)
 perCurrCash:100.0*(first cash`total_cash)%(total)
+
 
 update futureValue:`int$futureCash from `BALANCE where item=`Cash
 update futurePer:perfutureCash, curPer:perCurrCash from `BALANCE where item=`Cash
@@ -341,14 +344,17 @@ divFuture:first exec sum qty*dividend  from CURRENT_EQTY where not dividend=0n;
 rpnl:first exec sum rpnl from pnl_yearly where year= `year$.z.D
 upnl:first exec sum upnl from CURRENT_EQTY where upnl>0.0
 uloss:first exec sum upnl from CURRENT_EQTY where upnl<0.0
+totpnl:`int$(rpnl+divrpnl+optrpnl)
 
-`BALANCE insert (`$"Realized Stock"; `int$rpnl;0;0.0;0.0);
-`BALANCE insert (`$"Realized Option"; `int$optrpnl;0;0.0;0.0);
-`BALANCE insert (`$"Realized Dividend"; `int$divrpnl;`int$divFuture;0.0;0.0);
-`BALANCE insert (`$"Realized Total"; `int$(rpnl+divrpnl+optrpnl);0;0.0;0.0);
-`BALANCE insert (`$"UnRealized Profit";`int$upnl;0;0.0;100*upnl%invested);
-`BALANCE insert (`$"UnRealized Loss";`int$uloss;0;0.0;100*uloss%invested);
-`BALANCE insert (`$"UnRealized Net";`int$(upnl+uloss);0;0.0;100*(upnl+uloss)%invested)
+`BALANCE insert (`Invested;`int$first tmp`invested;0;0.0;100*(`int$first tmp`invested)%capital)
+`BALANCE insert (`CoveredCash; `int$first cash`opt_cash;0;0.0;100*(`int$abs first cash`opt_cash)%cash`total_cash)
+`BALANCE insert (`$"Realized Stock"; `int$rpnl;0;0.0;100*rpnl%capital);
+`BALANCE insert (`$"Realized Option"; `int$optrpnl;0;0.0;100*optrpnl%capital);
+`BALANCE insert (`$"Realized Dividend";`int$divrpnl;`int$divFuture;0.0;100*divrpnl%capital);
+`BALANCE insert (`$"Realized Total";totpnl;0;0.0;100*totpnl%capital);
+`BALANCE insert (`$"UnRealized Profit";`int$upnl;0;0.0;100*upnl%capital);
+`BALANCE insert (`$"UnRealized Loss";`int$uloss;0;0.0;100*uloss%capital);
+`BALANCE insert (`$"UnRealized Net";`int$(upnl+uloss);0;0.0;100*(upnl+uloss)%capital)
 
 
 /save to hdb
@@ -357,6 +363,8 @@ uloss:first exec sum upnl from CURRENT_EQTY where upnl<0.0
    (`$.dat.hdb,"/",string[.z.D],"/",string[lower x],"/") set .Q.en[`$.dat.hdb;0!value x];
    .lg.out["Saved ",string[x]];
     } each `ACCOUNT`BALANCE`CURRENT_EQTY`CURRENT_OPTION`RISK_SECTOR;
+
+\l .
 
 /webservices
 getCurrentEqty:{[];
@@ -369,7 +377,7 @@ getBalance:{[]
 	select item, currentValue, futureValue, 0.0^curPer, 0.0^futurePer from BALANCE}
 
 getRiskOption:{[]
-    select sym,expDate, putcall, strike, Close, costBasis, `int$0^upnl, risk,  qty, amount, reason from RISK_OPTION}
+    select sym,expDate, putcall, strike, Close, costBasis, `int$0^upnl,perCloser:`int$100*(strike - Close)%strike, risk,  qty, amount, reason from RISK_OPTION}
 
 getAccount:{[]
     select from ACCOUNT}
@@ -399,7 +407,7 @@ getIncByMonth:{[]
 //	lj (1!select month, divIncd from dividendByMonth where month >= `month$2022.02.01)}
 
 getSector:{[]
-	select sector,invested,upnl:(rpnl+upnl) from RISK_SECTOR}
+	select sector,invested,upnl from RISK_SECTOR}
 getPnlByMonth:{[]
 	(`date) xdesc 0!select sum rpnl by  `month$date from sold_position where date>=2022.01.01}
 getOptRisk:{[]
@@ -414,5 +422,17 @@ getOptIncome:{[]
 
 getIncomeRate:{[]
 	select sym, `int$0.0^optIncRate, 0.0^divRate from CURRENT_EQTY where (optIncRate>0.0) or (divRate >0.0)}
+
+getOptIncomeHist:{[]
+	select date, currentValue from balance where item=`$"Realized Option"}
+
+getBalanceChart:{[]
+	(select item, curPer from BALANCE where item like "Realized*"), 
+	(select item,curPer from BALANCE where item like "UnRealized*"),
+	(select item,curPer from BALANCE where item=`$"Cash"),
+	(select item,curPer from BALANCE where item=`$"Invested"),
+	(select item,curPer from BALANCE where item=`$"CoveredCash")}
+
+
 
 \p 1122

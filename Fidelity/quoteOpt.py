@@ -65,17 +65,19 @@ def main(argv):
        data=s.replace('\n','').split(",")
        if data[0] == 'sym':
           continue
-       if symbol != data[0]:
-          if len(symbol) > 0:
-             option=options_chain(symbol,expDates,eod)
-             if option.empty:
-              print("Bad Data :"+option.columns)
-             else:
-              fileName=fpath+symbol+".csv"
-              option.to_csv(path_or_buf=fileName)
-       expDates.clear()
 
-       print(data)
+       if symbol != data[0]:
+            if len(symbol) > 0 and len(expDates) >0:
+                print("Fetching options for "+symbol)
+                option=options_chain(symbol,expDates,eod)
+                #print(option)
+                if option.empty:
+                    print("Bad Data :"+option.columns)
+                else:
+                    fileName=fpath+symbol+".csv"
+                    option.to_csv(path_or_buf=fileName)
+                expDates.clear()
+
        symbol=data[0]
        expDate=data[1]
        expDates.append(expDate)
