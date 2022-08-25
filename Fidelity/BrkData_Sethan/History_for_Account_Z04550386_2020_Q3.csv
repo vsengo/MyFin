@@ -1,0 +1,49 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 09/30/2020, DIVIDEND RECEIVED INVESCO EXCHANGE TRADED FD TR WILDERHIL (PBW) (Cash), PBW, INVESCO EXCHANGE TRADED FD TR WILDERHIL,Cash,,,,,,0.05,
+ 09/30/2020, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.03,1,,,,-0.03,
+ 09/30/2020, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.03,
+ 09/30/2020, YOU BOUGHT APPLE INC (AAPL) (Cash), AAPL, APPLE INC,Cash,6,116.57,,,,-699.39,10/02/2020
+ 09/29/2020, DIVIDEND RECEIVED ISHARES TR ISHARES BIOTECH (IBB) (Cash), IBB, ISHARES TR ISHARES BIOTECH,Cash,,,,,,1.71,
+ 09/24/2020, DIVIDEND RECEIVED SELECT SECTOR SPDR TRUST TECHNOLOGY SEL (XLK) (Cash), XLK, SELECT SECTOR SPDR TRUST TECHNOLOGY SEL,Cash,,,,,,1.23,
+ 09/24/2020, DIVIDEND RECEIVED SPDR SER TR S&P BIOTECH (XBI) (Cash), XBI, SPDR SER TR S&P BIOTECH,Cash,,,,,,2.4,
+ 09/03/2020, YOU BOUGHT SKYWORKS SOLUTIONS INC (SWKS) (Cash), SWKS, SKYWORKS SOLUTIONS INC,Cash,6,141.81,,,,-850.83,09/08/2020
+ 09/03/2020, YOU BOUGHT SELECT SECTOR SPDR TRUST TECHNOLOGY SEL (XLK) (Cash), XLK, SELECT SECTOR SPDR TRUST TECHNOLOGY SEL,Cash,5,120.33,,,,-601.63,09/08/2020
+ 09/03/2020, YOU BOUGHT FASTLY INC CL A (FSLY) (Cash), FSLY, FASTLY INC CL A,Cash,8,82.99,,,,-663.89,09/08/2020
+ 09/03/2020, YOU BOUGHT DELTA AIR LINES INC (DAL) (Cash), DAL, DELTA AIR LINES INC,Cash,10,31.42,,,,-314.15,09/08/2020
+ 09/03/2020, YOU BOUGHT APPLE INC (AAPL) (Cash), AAPL, APPLE INC,Cash,4,123.31,,,,-493.23,09/08/2020
+ 08/31/2020, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.06,1,,,,-0.06,
+ 08/31/2020, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.06,
+ 08/31/2020, DISTRIBUTION TESLA INC COM (TSLA) (Cash), TSLA, TESLA INC COM,Cash,12,,,,,,
+ 08/21/2020, YOU BOUGHT SOCIAL CAPITAL HEDOSOPHIA HLDGS III COM (G8251K107) (Cash), G8251K107, SOCIAL CAPITAL HEDOSOPHIA HLDGS III COM,Cash,20,10.41,,,,-208.2,08/25/2020
+ 08/21/2020, YOU BOUGHT SOCIAL CAP HEDOSOPHIA HLDGS CORP II COM (G8250T109) (Cash), G8250T109, SOCIAL CAP HEDOSOPHIA HLDGS CORP II COM,Cash,20,10.78,,,,-215.5,08/25/2020
+ 08/18/2020, YOU BOUGHT PAYPAL HLDGS INC COM (PYPL) (Cash), PYPL, PAYPAL HLDGS INC COM,Cash,10,196.1,,,,-1960.96,08/20/2020
+ 07/31/2020, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.11,1,,,,-0.11,
+ 07/31/2020, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.11,
+ 07/28/2020, YOU BOUGHT QORVO INC (QRVO) (Cash), QRVO, QORVO INC,Cash,20,114.23,,,,-2284.6,07/30/2020
+ 07/28/2020, YOU BOUGHT BIOGEN INC COM USD0.0005 (BIIB) (Cash), BIIB, BIOGEN INC COM USD0.0005,Cash,7,281.85,,,,-1972.97,07/30/2020
+ 07/08/2020, DIVIDEND RECEIVED GLOBAL X FDS AGING POPULATION (AGNG) (Cash), AGNG, GLOBAL X FDS AGING POPULATION,Cash,,,,,,0.22,
+ 07/08/2020, DIVIDEND RECEIVED GLOBAL X FDS GLOBAL X CONSCIOUS COS ETF (KRMA) (Cash), KRMA, GLOBAL X FDS GLOBAL X CONSCIOUS COS ETF,Cash,,,,,,1.02,
+ 07/08/2020, DIVIDEND RECEIVED GLOBAL X FDS RBTCS ARTFL INTE (BOTZ) (Cash), BOTZ, GLOBAL X FDS RBTCS ARTFL INTE,Cash,,,,,,0.64,
+ 07/08/2020, DIVIDEND RECEIVED GLOBAL X FDS ARTIFICIAL ETF (AIQ) (Cash), AIQ, GLOBAL X FDS ARTIFICIAL ETF,Cash,,,,,,0.82,
+ 07/08/2020, DIVIDEND RECEIVED GLOBAL X FDS CYBRSCURTY ETF (BUG) (Cash), BUG, GLOBAL X FDS CYBRSCURTY ETF,Cash,,,,,,1.27,
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 05/18/2022, 2:40 PM

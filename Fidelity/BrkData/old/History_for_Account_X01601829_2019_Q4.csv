@@ -1,0 +1,31 @@
+
+
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 12/24/2019, YOU BOUGHT AT&T INC COM USD1 (T) (Margin), T, AT&T INC COM USD1,Margin,500,38.97,,,,-19485,12/27/2019
+ 12/23/2019, ASSIGNED as of 12/20/2019 CALL (C) CITIGROUP INC DEC 20 19 $70 (100 SHS) (Margin), -C191220C70, CALL (C) CITIGROUP INC DEC 20 19 $70 (100 SHS),Margin,1,,,,,,
+ 12/23/2019, YOU SOLD ASSIGNED CALLS AS OF 12-20-19 CITIGROUP INC COM NEW (C) (Margin), C, CITIGROUP INC COM NEW,Margin,-100,70,,0.15,,6999.85,12/24/2019
+ 12/20/2019, YOU SOLD EX-DIV DATE 12/24/19RECORD DATE 12/26/19 PROSHARES TR ULTSHRT QQQ (QID) (Margin), QID, PROSHARES TR ULTSHRT QQQ,Margin,-62,23.84,,0.04,,1478.31,12/24/2019
+ 11/29/2019, REINVESTMENT CASH (315994103) (Cash), 315994103, CASH,Cash,82.57,1,,,,-82.57,
+ 11/29/2019, INTEREST EARNED CASH (315994103) (Cash), 315994103, CASH,Cash,,,,,,82.57,
+ 11/22/2019, DIVIDEND RECEIVED CITIGROUP INC COM NEW (C) (Margin), C, CITIGROUP INC COM NEW,Margin,,,,,,51,
+ 10/31/2019, REINVESTMENT CASH (315994103) (Cash), 315994103, CASH,Cash,97.29,1,,,,-97.29,
+ 10/31/2019, INTEREST EARNED CASH (315994103) (Cash), 315994103, CASH,Cash,,,,,,97.29,
+ 10/03/2019, YOU SOLD OPENING TRANSACTION CALL (C) CITIGROUP INC DEC 20 19 $70 (100 SHS) (Margin), -C191220C70, CALL (C) CITIGROUP INC DEC 20 19 $70 (100 SHS),Margin,-1,1.76,5.04,0.05,,170.91,10/04/2019
+ 10/02/2019, DIVIDEND RECEIVED PROSHARES TR ULTRASHRT S&P500 (SDS) (Margin), SDS, PROSHARES TR ULTRASHRT S&P500,Margin,,,,,,12.85,
+ 10/02/2019, DIVIDEND RECEIVED PROSHARES TR ULTSHRT QQQ (QID) (Margin), QID, PROSHARES TR ULTSHRT QQQ,Margin,,,,,,10.23,
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 12/30/2019, 10:03 AM

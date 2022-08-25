@@ -1,0 +1,55 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 03/31/2022, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.02,1,,,,-0.02,
+ 03/31/2022, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.02,
+ 03/30/2022, DIVIDEND RECEIVED ISHARES TR US INFRASTRUC (IFRA) (Cash), IFRA, ISHARES TR US INFRASTRUC,Cash,,,,,,1.71,
+ 03/24/2022, DIVIDEND RECEIVED NVIDIA CORPORATION COM (NVDA) (Cash), NVDA, NVIDIA CORPORATION COM,Cash,,,,,,0.2,
+ 03/10/2022, DIVIDEND RECEIVED MICROSOFT CORP (MSFT) (Cash), MSFT, MICROSOFT CORP,Cash,,,,,,1.86,
+ 03/01/2022, DIVIDEND RECEIVED AMERICAN WATER WORKS COMPANY INC COM US (AWK) (Cash), AWK, AMERICAN WATER WORKS COMPANY INC COM US,Cash,,,,,,8.44,
+ 02/28/2022, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.01,1,,,,-0.01,
+ 02/28/2022, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.01,
+ 02/28/2022, Electronic Funds Transfer Received (Cash),  , No Description,Cash,,,,,,2000,
+ 02/24/2022, YOU BOUGHT GLOBAL X FDS CYBRSCURTY ETF (BUG) (Cash), BUG, GLOBAL X FDS CYBRSCURTY ETF,Cash,15,28.62,,,,-429.34,02/28/2022
+ 02/03/2022, YOU BOUGHT GLOBAL X FDS US INFR DEV ETF (PAVE) (Cash), PAVE, GLOBAL X FDS US INFR DEV ETF,Cash,20,26.72,,,,-534.4,02/07/2022
+ 02/01/2022, Electronic Funds Transfer Received (Cash),  , No Description,Cash,,,,,,5000,
+ 01/31/2022, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.01,1,,,,-0.01,
+ 01/31/2022, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.01,
+ 01/31/2022, YOU BOUGHT TESLA INC COM (TSLA) (Cash), TSLA, TESLA INC COM,Cash,5,933.99,,,,-4669.95,02/02/2022
+ 01/31/2022, YOU BOUGHT PAYPAL HLDGS INC COM (PYPL) (Cash), PYPL, PAYPAL HLDGS INC COM,Cash,10,169.03,,,,-1690.3,02/02/2022
+ 01/31/2022, YOU BOUGHT ISHARES TR US INFRASTRUC (IFRA) (Cash), IFRA, ISHARES TR US INFRASTRUC,Cash,10,35.76,,,,-357.65,02/02/2022
+ 01/31/2022, YOU BOUGHT ARK ETF TR GENOMIC REV ETF (ARKG) (Cash), ARKG, ARK ETF TR GENOMIC REV ETF,Cash,10,48.09,,,,-480.93,02/02/2022
+ 01/31/2022, YOU BOUGHT ARK ETF TR INNOVATION ETF (ARKK) (Cash), ARKK, ARK ETF TR INNOVATION ETF,Cash,10,73.84,,,,-738.4,02/02/2022
+ 01/31/2022, Electronic Funds Transfer Received (Cash),  , No Description,Cash,,,,,,2000,
+ 01/27/2022, YOU BOUGHT AMERICAN WATER WORKS COMPANY INC COM US (AWK) (Cash), AWK, AMERICAN WATER WORKS COMPANY INC COM US,Cash,4,158.1,,,,-632.4,01/31/2022
+ 01/27/2022, Electronic Funds Transfer Received (Cash),  , No Description,Cash,,,,,,2000,
+ 01/11/2022, FEE CHARGED NANO DIMENSION LTD SPON ADS EA REPR 1 O (NNDM) (Cash), NNDM, NANO DIMENSION LTD SPON ADS EA REPR 1 O,Cash,,,,,,-0.4,
+ 01/07/2022, DIVIDEND RECEIVED GLOBAL X LITHIUM AND BATTERY TECH ETF (LIT) (Cash), LIT, GLOBAL X LITHIUM AND BATTERY TECH ETF,Cash,,,,,,4.43,
+ 01/07/2022, DIVIDEND RECEIVED GLOBAL X FDS AGING POPULATION (AGNG) (Cash), AGNG, GLOBAL X FDS AGING POPULATION,Cash,,,,,,0.87,
+ 01/07/2022, DIVIDEND RECEIVED GLOBAL X FDS GLOBAL X CONSCIOUS COS ETF (KRMA) (Cash), KRMA, GLOBAL X FDS GLOBAL X CONSCIOUS COS ETF,Cash,,,,,,2.45,
+ 01/07/2022, DIVIDEND RECEIVED GLOBAL X FDS ARTIFICIAL ETF (AIQ) (Cash), AIQ, GLOBAL X FDS ARTIFICIAL ETF,Cash,,,,,,0.13,
+ 01/07/2022, DIVIDEND RECEIVED GLOBAL X FDS CANNABIS ETF (POTX) (Cash), POTX, GLOBAL X FDS CANNABIS ETF,Cash,,,,,,9.15,
+ 01/07/2022, DIVIDEND RECEIVED GLOBAL X FDS VDEO GAM ESPRT (HERO) (Cash), HERO, GLOBAL X FDS VDEO GAM ESPRT,Cash,,,,,,0.52,
+ 01/07/2022, DIVIDEND RECEIVED GLOBAL X FDS CYBRSCURTY ETF (BUG) (Cash), BUG, GLOBAL X FDS CYBRSCURTY ETF,Cash,,,,,,3.92,
+ 01/07/2022, LONG-TERM CAP GAIN GLOBAL X FDS VDEO GAM ESPRT (HERO) (Cash), HERO, GLOBAL X FDS VDEO GAM ESPRT,Cash,,,,,,0.27,
+ 01/07/2022, LONG-TERM CAP GAIN GLOBAL X FDS CYBRSCURTY ETF (BUG) (Cash), BUG, GLOBAL X FDS CYBRSCURTY ETF,Cash,,,,,,0.1,
+ 01/07/2022, SHORT-TERM CAP GAIN GLOBAL X FDS CYBRSCURTY ETF (BUG) (Cash), BUG, GLOBAL X FDS CYBRSCURTY ETF,Cash,,,,,,4.78,
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 05/18/2022, 2:40 PM

@@ -1,0 +1,39 @@
+
+
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 09/30/2013, REINVESTMENT, 315994103, CASH,Cash,0.44,1,,,,-0.44,
+ 09/30/2013, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.44,
+ 09/27/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,25,1,,,,-25,
+ 09/27/2013, DIVIDEND RECEIVED, NEM, NEWMONT MNG CORP HLDG CO,Margin,,,,,,25,
+ 09/26/2013, REDEMPTION FROM CORE ACCOUNT, 315994103, CASH,Cash,-5447.95,1,,,,5447.95,
+ 09/24/2013, REDEMPTION FROM CORE ACCOUNT, 315994103, CASH,Cash,-2007.98,1,,,,2007.98,
+ 09/23/2013, EXPIRED              CALL (OVTI)         OMNIVISION as of 09/20/2013, -OVTI130921C17, CALL (OVTI) OMNIVISION SEP 21 13 $17 (100 SHS),Margin,2,,,,,,
+ 09/23/2013, YOU BOUGHT           OPENING TRANSACTION, -AAPL140419C550, CALL (AAPL) APPLE INC APR 19 14 $550 (100 SHS),Margin,1,20, 7.95,0.03,,-2007.98, 09/24/2013
+ 09/23/2013, YOU BOUGHT, BRCM, BROADCOM CORP CL A,Margin,200,27.2, 7.95,,,-5447.95, 09/26/2013
+ 09/17/2013, REDEMPTION FROM CORE ACCOUNT, 315994103, CASH,Cash,-2853.95,1,,,,2853.95, 
+ 09/12/2013, YOU BOUGHT, NEM, NEWMONT MNG CORP HLDG CO,Margin,100,28.46, 7.95,,,-2853.95, 09/17/2013
+ 08/30/2013, REINVESTMENT, 315994103, CASH,Cash,0.48,1,,,,-0.48, 
+ 08/30/2013, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.48, 
+ 08/23/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,0.02,1,,,,-0.02, 
+ 08/23/2013, DIVIDEND RECEIVED, C, CITIGROUP INC COM NEW,Margin,,,,,,0.02, 
+ 07/31/2013, REINVESTMENT, 315994103, CASH,Cash,0.49,1,,,,-0.49, 
+ 07/31/2013, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.49, 
+ 07/24/2013, REDEMPTION FROM CORE ACCOUNT, 315994103, CASH,Cash,-1032.98,1,,,,1032.98, 
+ 07/23/2013, YOU BOUGHT           OPENING TRANSACTION, -AAPL140419C500, CALL (AAPL) APPLE INC APR 19 14 $500 (100 SHS),Margin,1,10.25, 7.95,0.03,,-1032.98, 07/24/2013
+ 07/22/2013, EXPIRED              CALL (AAPL)         APPLE INC as of 07/19/2013, -AAPL130720C620, CALL (AAPL) APPLE INC JUL 20 13 $620 (100 SHS),Margin,-2,,,,,, 
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 12/07/2014, 5:10 PM

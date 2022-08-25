@@ -1,0 +1,33 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 06/30/2020, DIVIDEND RECEIVED INDIA FD INC COM (IFN) (Cash), IFN, INDIA FD INC COM,Cash,,,,,,840,
+ 06/30/2020, DIVIDEND RECEIVED HERZFELD CARIBBEAN BASIN FD IN COM (CUBA) (Cash), CUBA, HERZFELD CARIBBEAN BASIN FD IN COM,Cash,,,,,,465.75,
+ 06/30/2020, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.51,1,,,,-0.51,
+ 06/30/2020, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.51,
+ 05/29/2020, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.74,1,,,,-0.74,
+ 05/29/2020, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.74,
+ 05/15/2020, YOU BOUGHT INDIA FD INC COM (IFN) (Cash), IFN, INDIA FD INC COM,Cash,500,13.85,,,,-6925,05/19/2020
+ 05/14/2020, DIVIDEND RECEIVED APPLE INC COM USD0.00001 (AAPL) (Cash), AAPL, APPLE INC COM USD0.00001,Cash,,,,,,574,
+ 04/30/2020, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,1.64,1,,,,-1.64,
+ 04/30/2020, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,1.64,
+ 04/13/2020, YOU SOLD PROSHARES ULTRAPRO QQQ (TQQQ) (Cash), TQQQ, PROSHARES ULTRAPRO QQQ,Cash,-300,55.55,,0.37,,16664.63,04/15/2020
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 07/03/2020, 9:40 PM

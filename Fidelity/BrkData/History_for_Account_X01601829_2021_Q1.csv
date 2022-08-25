@@ -1,0 +1,45 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 03/31/2021, DIVIDEND RECEIVED INDIA FUND INC (IFN) (Margin), IFN, INDIA FUND INC,Margin,,,,,,174,
+ 03/31/2021, REINVESTMENT CASH (315994103) (Cash), 315994103, CASH,Cash,1.07,1,,,,-1.07,
+ 03/31/2021, INTEREST EARNED CASH (315994103) (Cash), 315994103, CASH,Cash,,,,,,1.07,
+ 03/23/2021, YOU BOUGHT SUNRUN INC COM (RUN) (Margin), RUN, SUNRUN INC COM,Margin,200,55.85,,,,-11170,03/25/2021
+ 03/22/2021, ASSIGNED as of 03/19/2021 CALL (JETS) ETF SER SOLUTIONS USMAR 19 21 $27 (100 SHS) (Margin), -JETS210319C27, CALL (JETS) ETF SER SOLUTIONS USMAR 19 21 $27 (100 SHS),Margin,10,,,,,,
+ 03/22/2021, YOU SOLD ASSIGNED CALLS AS OF 03-19-21 ETF SER SOLUTIONS US GLB JETS (JETS) (Margin), JETS, ETF SER SOLUTIONS US GLB JETS,Margin,-1000,27,,0.14,,26999.86,03/23/2021
+ 03/17/2021, Electronic Funds Transfer Received (Cash), , No Description,Cash,,,,,,30000,
+ 03/10/2021, DIVIDEND RECEIVED INTERNATIONAL BUS MACH CORP COM USD0.20 (IBM) (Margin), IBM, INTERNATIONAL BUS MACH CORP COM USD0.20,Margin,,,,,,489,
+ 03/04/2021, YOU BOUGHT SOCIAL CAP HEDOSOPHIA HLDGS CORP V COM (IPOE) (Margin), IPOE, SOCIAL CAP HEDOSOPHIA HLDGS CORP V COM ,Margin,1000,15.5,,,,-15500,03/08/2021
+ 03/01/2021, YOU BOUGHT BP PLC SPONSORED ADR (BP) (Margin), BP, BP PLC SPONSORED ADR,Margin,900,24.75,,,,-22275,03/03/2021
+ 02/26/2021, REINVESTMENT CASH (315994103) (Cash), 315994103, CASH,Cash,1.14,1,,,,-1.14,
+ 02/26/2021, DIVIDEND RECEIVED CITIGROUP INC (C) (Margin), C, CITIGROUP INC,Margin,,,,,,357,
+ 02/26/2021, INTEREST EARNED CASH (315994103) (Cash), 315994103, CASH,Cash,,,,,,1.14,
+ 02/22/2021, YOU BOUGHT BP PLC SPONSORED ADR (BP) (Margin), BP, BP PLC SPONSORED ADR,Margin,600,23.75,,,,-14250,02/24/2021
+ 02/11/2021, YOU SOLD OPENING TRANSACTION CALL (DDD) 3 D SYSTEMS INC COM MAY 21 21 $70 (100 SHS) (Margin), -DDD210521C70, CALL (DDD) 3 D SYSTEMS INC COM MAY 21 21 $70 (100 SHS),Margin,-5,5.7,2.93,0.25,,2846.82,02/12/2021
+ 02/10/2021, YOU SOLD OPENING TRANSACTION CALL (C) CITIGROUP INC JUN 18 21 $80 (100 SHS) (Margin), -C210618C80, CALL (C) CITIGROUP INC JUN 18 21 $80 (100 SHS),Margin,-7,1,4.1,0.27,,695.63,02/11/2021
+ 02/01/2021, DIVIDEND RECEIVED AT&T INC COM USD1 (T) (Margin), T, AT&T INC COM USD1,Margin,,,,,,520,
+ 01/29/2021, REINVESTMENT CASH (315994103) (Cash), 315994103, CASH,Cash,1.22,1,,,,-1.22,
+ 01/29/2021, INTEREST EARNED CASH (315994103) (Cash), 315994103, CASH,Cash,,,,,,1.22,
+ 01/29/2021, YOU SOLD PROSHARES TR II ULTRA VIX SHORT (UVXY) (Margin), UVXY, PROSHARES TR II ULTRA VIX SHORT,Margin,-250,14,,0.08,,3499.92,02/02/2021
+ 01/19/2021, YOU SOLD OPENING TRANSACTION CALL (BA) BOEING CO COM APR 16 21 $250 (100 SHS) (Margin), -BA210416C250, CALL (BA) BOEING CO COM APR 16 21 $250 (100 SHS),Margin,-1,6.35,0.59,0.06,,634.35,01/20/2021
+ 01/19/2021, YOU SOLD OPENING TRANSACTION CALL (IBM) INTERNATIONAL BUS APR 16 21 $145 (100 SHS) (Margin), -IBM210416C145, CALL (IBM) INTERNATIONAL BUS APR 16 21 $145 (100 SHS),Margin,-3,1.45,1.76,0.12,,433.12,01/20/2021
+ 01/05/2021, YOU SOLD OPENING TRANSACTION CALL (JETS) ETF SER SOLUTIONS USMAR 19 21 $27 (100 SHS) (Margin), -JETS210319C27, CALL (JETS) ETF SER SOLUTIONS USMAR 19 21 $27 (100 SHS),Margin,-10,0.55,5.85,0.38,,543.77,01/06/2021
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 04/09/2021, 5:42 PM

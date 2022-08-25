@@ -1,0 +1,39 @@
+
+
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 12/31/2013, REINVESTMENT, 315994103, CASH,Cash,0.44,1,,,,-0.44,
+ 12/31/2013, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.44,
+ 12/27/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,40,1,,,,-40,
+ 12/27/2013, DIVIDEND RECEIVED, NEM, NEWMONT MNG CORP HLDG CO,Margin,,,,,,40,
+ 12/24/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,30000,1,,,,-30000,
+ 12/24/2013, Electronic Funds Transfer Received,  , No Description,Cash,,,,,,30000,
+ 12/23/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,95.98,1,,,,-95.98,
+ 12/20/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,115.98,1,,,,-115.98,
+ 12/20/2013, YOU SOLD             OPENING TRANSACTION, -OVTI140322C20, CALL (OVTI) OMNIVISION MAR 22 14 $20 (100 SHS),Margin,-2,0.52, 7.95,0.07,,95.98, 12/23/2013
+ 12/19/2013, YOU SOLD             OPENING TRANSACTION, -BRCM140222C31, CALL (BRCM) BROADCOM CORP FEB 22 14 $31 (100 SHS),Margin,-2,0.62, 7.95,0.07,,115.98, 12/20/2013
+ 12/09/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,22,1,,,,-22, 
+ 12/09/2013, DIVIDEND RECEIVED, BRCM, BROADCOM CORP CL A,Margin,,,,,,22, 
+ 11/29/2013, REINVESTMENT, 315994103, CASH,Cash,0.38,1,,,,-0.38, 
+ 11/29/2013, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.38, 
+ 11/22/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,0.02,1,,,,-0.02, 
+ 11/22/2013, DIVIDEND RECEIVED, C, CITIGROUP INC COM NEW,Margin,,,,,,0.02, 
+ 10/31/2013, REINVESTMENT, 315994103, CASH,Cash,0.39,1,,,,-0.39, 
+ 10/31/2013, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.39, 
+ 10/21/2013, EXPIRED              CALL (AAPL)         APPLE INC as of 10/18/2013, -AAPL131019C600, CALL (AAPL) APPLE INC OCT 19 13 $600 (100 SHS),Margin,-1,,,,,, 
+ 10/21/2013, EXPIRED              CALL (AAPL)         APPLE INC as of 10/18/2013, -AAPL131019C520, CALL (AAPL) APPLE INC OCT 19 13 $520 (100 SHS),Margin,-1,,,,,, 
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 12/07/2014, 5:10 PM

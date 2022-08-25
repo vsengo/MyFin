@@ -1,0 +1,39 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 03/31/2021, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.18,1,,,,-0.18,
+ 03/31/2021, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.18,
+ 03/22/2021, YOU BOUGHT QUANTUMSCAPE CORP COM CL A (QS) (Cash), QS, QUANTUMSCAPE CORP COM CL A,Cash,100,64,,,,-6400,03/24/2021
+ 03/15/2021, YOU SOLD AT&T INC COM USD1 (T) (Cash), T, AT&T INC COM USD1,Cash,-1000,29.77,,0.16,,29769.84,03/17/2021
+ 03/04/2021, YOU BOUGHT PROTO LABS INC COM USD0.001 (PRLB) (Cash), PRLB, PROTO LABS INC COM USD0.001,Cash,50,127,,,,-6350,03/08/2021
+ 02/26/2021, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.09,1,,,,-0.09,
+ 02/26/2021, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.09,
+ 02/11/2021, DIVIDEND RECEIVED APPLE INC (AAPL) (Cash), AAPL, APPLE INC,Cash,,,,,,246,
+ 02/05/2021, YOU SOLD 3 D SYSTEMS INC COM USD0.001 (DDD) (Cash), DDD, 3 D SYSTEMS INC COM USD0.001,Cash,-30,47.15,,0.04,,1414.46,02/09/2021
+ 02/05/2021, YOU SOLD 3 D SYSTEMS INC COM USD0.001 (DDD) (Cash), DDD, 3 D SYSTEMS INC COM USD0.001,Cash,-70,47.15,,0.08,,3300.42,02/09/2021
+ 02/01/2021, DIVIDEND RECEIVED AT&T INC COM USD1 (T) (Cash), T, AT&T INC COM USD1,Cash,,,,,,520,
+ 01/29/2021, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.1,1,,,,-0.1,
+ 01/29/2021, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.1,
+ 01/15/2021, YOU BOUGHT QUANTUMSCAPE CORP COM CL A (QS) (Cash), QS, QUANTUMSCAPE CORP COM CL A,Cash,100,53.5,,,,-5350,01/20/2021
+ 01/15/2021, YOU BOUGHT PROTO LABS INC COM USD0.001 (PRLB) (Cash), PRLB, PROTO LABS INC COM USD0.001,Cash,50,171.75,,,,-8587.5,01/20/2021
+ 01/11/2021, ROTH CONVERSION VS 481-846805-1 (Cash), , No Description,Cash,,,,,,10.56,
+ 01/08/2021, YOU SOLD STRATASYS LTD (SSYS) (Cash), SSYS, STRATASYS LTD,Cash,-500,29,,0.33,,14499.67,01/12/2021
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 04/09/2021, 5:42 PM

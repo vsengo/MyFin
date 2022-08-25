@@ -1,0 +1,42 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 12/31/2020, DIVIDEND RECEIVED INVESCO EXCH TRADED FD TR II SOLAR ETF (TAN) (Cash), TAN, INVESCO EXCH TRADED FD TR II SOLAR ETF,Cash,,,,,,0.46,
+ 12/31/2020, DIVIDEND RECEIVED FIRST TR EXCHANGE-TRADED FD NAS CLNEDG (QCLN) (Cash), QCLN, FIRST TR EXCHANGE-TRADED FD NAS CLNEDG ,Cash,,,,,,0.35,
+ 12/31/2020, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.01,1,,,,-0.01,
+ 12/31/2020, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.01,
+ 12/18/2020, DIVIDEND RECEIVED ISHARES TR GL CLEAN ENE ETF (ICLN) (Cash), ICLN, ISHARES TR GL CLEAN ENE ETF,Cash,,,,,,0.3,
+ 12/10/2020, DIVIDEND RECEIVED MICROSOFT CORP (MSFT) (Cash), MSFT, MICROSOFT CORP,Cash,,,,,,2.8,
+ 12/04/2020, CASH CONTRIBUTION CURRENT YEAR (Cash), , No Description,Cash,,,,,,1000,
+ 12/02/2020, DIVIDEND RECEIVED AMERICAN WATER WORKS COMPANY INC COM US (AWK) (Cash), AWK, AMERICAN WATER WORKS COMPANY INC COM US,Cash,,,,,,2.75,
+ 11/30/2020, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.01,1,,,,-0.01,
+ 11/30/2020, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.01,
+ 11/03/2020, YOU BOUGHT AMERICAN WATER WORKS COMPANY INC COM US (AWK) (Cash), AWK, AMERICAN WATER WORKS COMPANY INC COM US,Cash,5,156.87,,,,-784.35,11/05/2020
+ 10/30/2020, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.03,1,,,,-0.03,
+ 10/30/2020, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.03,
+ 10/26/2020, YOU BOUGHT BLOCK INC CL A (SQ) (Cash), SQ, BLOCK INC CL A,Cash,5,169.12,,,,-845.6,10/28/2020
+ 10/26/2020, YOU BOUGHT MICROSOFT CORP (MSFT) (Cash), MSFT, MICROSOFT CORP,Cash,5,209.53,,,,-1047.65,10/28/2020
+ 10/26/2020, YOU BOUGHT ISHARES TR GL CLEAN ENE ETF (ICLN) (Cash), ICLN, ISHARES TR GL CLEAN ENE ETF,Cash,10,19.72,,,,-197.18,10/28/2020
+ 10/26/2020, YOU BOUGHT INVESCO EXCH TRADED FD TR II SOLAR ETF (TAN) (Cash), TAN, INVESCO EXCH TRADED FD TR II SOLAR ETF,Cash,5,69.24,,,,-346.19,10/28/2020
+ 10/26/2020, YOU BOUGHT FIRST TR EXCHANGE-TRADED FD NAS CLNEDG (QCLN) (Cash), QCLN, FIRST TR EXCHANGE-TRADED FD NAS CLNEDG ,Cash,5,47.7,,,,-238.48,10/28/2020
+ 10/26/2020, YOU BOUGHT BEYOND MEAT INC COM (BYND) (Cash), BYND, BEYOND MEAT INC COM,Cash,5,164.03,,,,-820.15,10/28/2020
+ 10/06/2020, CASH CONTRIBUTION CURRENT YEAR (Cash), , No Description,Cash,,,,,,5000,
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 05/18/2022, 2:39 PM

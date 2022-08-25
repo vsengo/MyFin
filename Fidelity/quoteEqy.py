@@ -26,6 +26,8 @@ print("Fetching Date Range :"+from_date.strftime("%Y%m%d")+" to "+to_date.strfti
 
 f=open("symbols.txt","r")
 fpath="./quotes/"
+wf=open("security_info.csv","w")
+
 def getQuote(from_date, to_date, f, fpath):
     for s in f:
         symbol=s.replace('\n','').split(",")[0]
@@ -39,7 +41,27 @@ def getQuote(from_date, to_date, f, fpath):
             else:
                 fileName=fpath+symbol+".csv"
                 data.to_csv(path_or_buf=fileName)
+                """
+                earnings=ticker.get_calendar()
+                if earnings:
+                    edate=earnings.loc['Earnings Date']
+                else:
+                    edate=None
+                info=ticker.get_info()
+                beta=info['beta']
+                sector=info['sector']
+                industry=info['industry']
+                pe=info['forwardPE']
+                div=info['dividendYield']
+                line=symbol+","+str(edate[0])+","+str(beta)+","+sector+","+industry+","+str(pe)+","+str(div)
+                print(line)
+                wf.write(line)
+                wf.write('\n')
+                """
 
+
+   
 getQuote(from_date, to_date, f, fpath)
+
 
 quit()

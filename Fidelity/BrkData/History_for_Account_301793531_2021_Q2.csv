@@ -1,0 +1,34 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 06/30/2021, DIVIDEND RECEIVED INDIA FUND INC (IFN) (Cash), IFN, INDIA FUND INC,Cash,,,,,,1740,
+ 06/30/2021, DIVIDEND RECEIVED HERZFELD CARIBBEAN BASIN FD IN COM (CUBA) (Cash), CUBA, HERZFELD CARIBBEAN BASIN FD IN COM,Cash,,,,,,465.75,
+ 06/30/2021, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.14,1,,,,-0.14,
+ 06/30/2021, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.14,
+ 06/07/2021, YOU SOLD GLOBAL X FDS CANNABIS ETF (POTX) (Cash), POTX, GLOBAL X FDS CANNABIS ETF,Cash,-1000,15.5,,0.08,,15499.92,06/09/2021
+ 05/28/2021, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.08,1,,,,-0.08,
+ 05/28/2021, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.08,
+ 05/19/2021, YOU BOUGHT PALANTIR TECHNOLOGIES INC CL A (PLTR) (Cash), PLTR, PALANTIR TECHNOLOGIES INC CL A,Cash,300,20.45,,,,-6135,05/21/2021
+ 05/13/2021, DIVIDEND RECEIVED APPLE INC (AAPL) (Cash), AAPL, APPLE INC,Cash,,,,,,616,
+ 04/30/2021, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.09,1,,,,-0.09,
+ 04/30/2021, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.09,
+ 04/22/2021, DIVIDEND RECEIVED COMPASS DIVERSIFIED SH BEN INT (CODI) (Cash), CODI, COMPASS DIVERSIFIED SH BEN INT,Cash,,,,,,540,
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 07/05/2021, 6:28 PM

@@ -1,0 +1,41 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 06/30/2020, DIVIDEND RECEIVED INDIA FD INC COM (IFN) (Margin), IFN, INDIA FD INC COM,Margin,,,,,,126,
+ 06/30/2020, REINVESTMENT CASH (315994103) (Cash), 315994103, CASH,Cash,1.27,1,,,,-1.27,
+ 06/30/2020, INTEREST EARNED CASH (315994103) (Cash), 315994103, CASH,Cash,,,,,,1.27,
+ 06/25/2020, YOU BOUGHT TOLL BROTHERS INC COM (TOL) (Margin), TOL, TOLL BROTHERS INC COM,Margin,300,30.3,,,,-9090,06/29/2020
+ 06/22/2020, EXPIRED CALL (T) AT&T INC COM USD1 as of 06/19/2020 CALL (T) AT&T INC COM USD1 JUN 19 20 $39 (100 SHS) (Margin), -T200619C39, CALL (T) AT&T INC COM USD1 JUN 19 20 $39 (100 SHS),Margin,5,,,,,,
+ 06/11/2020, YOU SOLD EX-DIV DATE 06/15/20RECORD DATE 06/16/20 ISHARES RUSSELL 2000 ETF (IWM) (Cash), IWM, ISHARES RUSSELL 2000 ETF,Cash,-200,137.5,,0.61,,27499.39,06/15/2020
+ 06/10/2020, DIVIDEND RECEIVED INTERNATIONAL BUS MACH CORP COM USD0.20 (IBM) (Margin), IBM, INTERNATIONAL BUS MACH CORP COM USD0.20,Margin,,,,,,326,
+ 05/29/2020, REINVESTMENT CASH (315994103) (Cash), 315994103, CASH,Cash,1.49,1,,,,-1.49,
+ 05/29/2020, INTEREST EARNED CASH (315994103) (Cash), 315994103, CASH,Cash,,,,,,1.49,
+ 05/29/2020, YOU BOUGHT ISHARES RUSSELL 2000 ETF (IWM) (Cash), IWM, ISHARES RUSSELL 2000 ETF,Cash,200,137.5,,,,-27500,06/02/2020
+ 05/13/2020, YOU BOUGHT INTERNATIONAL BUS MACH CORP COM USD0.20 (IBM) (Margin), IBM, INTERNATIONAL BUS MACH CORP COM USD0.20,Margin,100,115.5,,,,-11550,05/15/2020
+ 05/06/2020, YOU BOUGHT DIREXION SHS ETF TR DLY GOLD INDX 2X (NUGT) (Margin), NUGT, DIREXION SHS ETF TR DLY GOLD INDX 2X,Margin,100,68.5,,,,-6850,05/08/2020
+ 05/01/2020, DIVIDEND RECEIVED AT&T INC COM USD1 (T) (Margin), T, AT&T INC COM USD1,Margin,,,,,,520,
+ 04/30/2020, REINVESTMENT CASH (315994103) (Cash), 315994103, CASH,Cash,1.61,1,,,,-1.61,
+ 04/30/2020, INTEREST EARNED CASH (315994103) (Cash), 315994103, CASH,Cash,,,,,,1.61,
+ 04/29/2020, YOU BOUGHT PROSHARES TR ULTRAPRO SHT QQQ (SQQQ) (Margin), SQQQ, PROSHARES TR ULTRAPRO SHT QQQ,Margin,1000,11.6,,,,-11600,05/01/2020
+ 04/23/2020, REVERSE SPLIT R/S FROM 25460E844#REOR M0051258900001 DIREXION SHS ETF TR DLY GOLD INDX 2X (NUGT) (Margin), NUGT, DIREXION SHS ETF TR DLY GOLD INDX 2X,Margin,100,,,,,,
+ 04/23/2020, REVERSE SPLIT R/S TO 25460G781#REOR M0051258900000 DIREXION SHS ETF TR DLY GOLD INDX 2X 1 (25460E844) (Margin), 25460E844, DIREXION SHS ETF TR DLY GOLD INDX 2X 1 ,Margin,-500,,,,,,
+ 04/01/2020, DIVIDEND RECEIVED PROSHARES TR ULTRASHRT S&P500 (SDS) (Margin), SDS, PROSHARES TR ULTRASHRT S&P500,Margin,,,,,,5.69,
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 07/03/2020, 9:37 PM

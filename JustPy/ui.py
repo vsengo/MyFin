@@ -83,8 +83,8 @@ def menu(wp):
     jp.QBtn(label='Equity', a=btGrp, click=getEquity)
     jp.QBtn(label='Options', a=btGrp, click=getOption)
     jp.QBtn(label='Risk Options', a=btGrp,click=getRiskOption)
-    jp.QBtn(label='Invest Calls', a=btGrp,click=getOptionCall)
-    jp.QBtn(label='Invest Puts', a=btGrp,click=getOptionPut)
+    jp.QBtn(label='Sell Calls', a=btGrp,click=getOptionCall)
+    jp.QBtn(label='Sell Puts', a=btGrp,click=getOptionPut)
     jp.QBtn(label='Option Strategies', a=btGrp,click=getOptionStrategy)
      
 def home():

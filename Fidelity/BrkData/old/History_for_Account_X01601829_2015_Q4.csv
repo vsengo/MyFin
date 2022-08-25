@@ -1,0 +1,33 @@
+
+
+
+Run Date,Account,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 12/31/2015,REINVESTMENT, 315994103, CASH,Cash,0.36,1,,,,-0.36,
+ 12/31/2015,INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.36,
+ 12/28/2015,DIVIDEND RECEIVED, GDX, MARKET VECTORS ETF TR GOLD MINERS ETF FD,Margin,,,,,,58,
+ 12/21/2015,EXPIRED              CALL (GDX)          MARKET VECTORS ETF as of 12/18/2015, -GDX151218C18.5, CALL (GDX) MARKET VECTORS ETF DEC 18 15 $18.5 (100 SHS),Margin,5,,,,,,
+ 12/09/2015,Electronic Funds Transfer Paid, , No Description,Cash,,,,,,-15000,
+ 12/08/2015,Electronic Funds Transfer Paid, , No Description,Cash,,,,,,-10000,
+ 12/02/2015,Electronic Funds Transfer Paid, , No Description,Cash,,,,,,-10000,
+ 11/30/2015,REINVESTMENT, 315994103, CASH,Cash,0.58,1,,,,-0.58, 
+ 11/30/2015,INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.58, 
+ 11/25/2015,DIVIDEND RECEIVED, C, CITIGROUP INC COM NEW,Margin,,,,,,5, 
+ 10/30/2015,REINVESTMENT, 315994103, CASH,Cash,0.6,1,,,,-0.6, 
+ 10/30/2015,INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.6, 
+ 10/13/2015,DIVIDEND RECEIVED, WFM, WHOLE FOODS MKT INC,Margin,,,,,,13, 
+ 10/07/2015,YOU SOLD             OPENING TRANSACTION, -GDX151218C18.5, CALL (GDX) MARKET VECTORS ETF DEC 18 15 $18.5 (100 SHS),Margin,-5,0.45, 10.13,0.22,,214.65, 10/08/2015
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 01/02/2016, 9:04 AM

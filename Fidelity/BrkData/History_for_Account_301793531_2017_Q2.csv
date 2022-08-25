@@ -1,0 +1,26 @@
+
+
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 06/30/2017, REINVESTMENT, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,27.95,1,,,,-27.95,
+ 06/30/2017, DIVIDEND RECEIVED, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,27.95,
+ 05/31/2017, REINVESTMENT, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,23.63,1,,,,-23.63,
+ 05/31/2017, DIVIDEND RECEIVED, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,23.63,
+ 05/18/2017, DIVIDEND RECEIVED, AAPL, APPLE INC,Cash,,,,,,441,
+ 04/28/2017, REINVESTMENT, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,20.35,1,,,,-20.35,
+ 04/28/2017, DIVIDEND RECEIVED, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,20.35,
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 02/12/2018, 7:17 PM

@@ -1,0 +1,32 @@
+
+
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 09/30/2014, REINVESTMENT, FDRXX, FIDELITY CASH RESERVES,Cash,0.14,1,,,,-0.14,
+ 09/30/2014, DIVIDEND RECEIVED, FDRXX, FIDELITY CASH RESERVES,Cash,,,,,,0.14,
+ 08/29/2014, REINVESTMENT, FDRXX, FIDELITY CASH RESERVES,Cash,0.15,1,,,,-0.15,
+ 08/29/2014, DIVIDEND RECEIVED, FDRXX, FIDELITY CASH RESERVES,Cash,,,,,,0.15,
+ 08/14/2014, PURCHASE INTO CORE ACCOUNT, FDRXX, FIDELITY CASH RESERVES,Cash,493.5,1,,,,-493.5,
+ 08/14/2014, DIVIDEND RECEIVED, AAPL, APPLE INC,Cash,,,,,,493.5,
+ 08/08/2014, REDEMPTION FROM CORE ACCOUNT, FDRXX, FIDELITY CASH RESERVES,Cash,-4654.95,1,,,,4654.95,
+ 08/05/2014, YOU BOUGHT, DDD, 3D SYSTEMS CORP DEL COM NEW,Cash,100,46.47, 7.95,,,-4654.95, 08/08/2014
+ 08/04/2014, PURCHASE INTO CORE ACCOUNT, FDRXX, FIDELITY CASH RESERVES,Cash,9.33,1,,,,-9.33, 
+ 08/04/2014, FEE CHARGED, SIFY, SIFY TECHNOLOGIES LIMITED ADR EACH REP ,Cash,,,,,,-2.31, 
+ 08/04/2014, DIVIDEND RECEIVED, SIFY, SIFY TECHNOLOGIES LIMITED ADR EACH REP ,Cash,,,,,,11.64, 
+ 07/31/2014, REINVESTMENT, FDRXX, FIDELITY CASH RESERVES,Cash,0.18,1,,,,-0.18, 
+ 07/31/2014, DIVIDEND RECEIVED, FDRXX, FIDELITY CASH RESERVES,Cash,,,,,,0.18, 
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 12/07/2014, 5:14 PM

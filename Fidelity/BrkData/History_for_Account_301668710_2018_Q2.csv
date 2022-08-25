@@ -1,0 +1,30 @@
+
+
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 06/29/2018, REINVESTMENT, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,95.68,1,,,,-95.68,
+ 06/29/2018, DIVIDEND RECEIVED, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,95.68,
+ 06/28/2018, DIVIDEND RECEIVED, EPI, WISDOMTREE TR INDIA EARNINGS FD,Cash,,,,,,42.28,
+ 06/15/2018, DIVIDEND RECEIVED, 62942X405, NRG YIELD INC CL C,Cash,,,,,,61.8,
+ 06/15/2018, DIVIDEND RECEIVED, 62942X306, NRG YIELD INC CL A NEW,Cash,,,,,,61.8,
+ 06/11/2018, DIVIDEND RECEIVED as of 06/09/2018, IBM, INTL BUSINESS MACH,Cash,,,,,,78.5,
+ 05/31/2018, REINVESTMENT, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,92.67,1,,,,-92.67,
+ 05/31/2018, DIVIDEND RECEIVED, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,92.67,
+ 05/17/2018, DIVIDEND RECEIVED, AAPL, APPLE INC,Cash,,,,,,219,
+ 04/30/2018, REINVESTMENT, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,84.85,1,,,,-84.85,
+ 04/30/2018, DIVIDEND RECEIVED, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,84.85,
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 01/03/2019, 9:11 PM

@@ -1,0 +1,41 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 03/31/2021, DIVIDEND RECEIVED NVIDIA CORPORATION COM (NVDA) (Cash), NVDA, NVIDIA CORPORATION COM,Cash,,,,,,8,
+ 03/31/2021, DIVIDEND RECEIVED INDIA FUND INC (IFN) (Cash), IFN, INDIA FUND INC,Cash,,,,,,1740,
+ 03/31/2021, DIVIDEND RECEIVED HERZFELD CARIBBEAN BASIN FD IN COM (CUBA) (Cash), CUBA, HERZFELD CARIBBEAN BASIN FD IN COM,Cash,,,,,,465.75,
+ 03/31/2021, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.12,1,,,,-0.12,
+ 03/31/2021, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.12,
+ 03/08/2021, YOU BOUGHT NVIDIA CORPORATION COM (NVDA) (Cash), NVDA, NVIDIA CORPORATION COM,Cash,50,468,,,,-23400,03/10/2021
+ 03/05/2021, YOU SOLD VIRGIN GALACTIC HOLDINGS INC COM (SPCE) (Cash), SPCE, VIRGIN GALACTIC HOLDINGS INC COM,Cash,-100,27,,0.02,,2699.98,03/09/2021
+ 02/26/2021, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.13,1,,,,-0.13,
+ 02/26/2021, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.13,
+ 02/26/2021, YOU SOLD VIRGIN GALACTIC HOLDINGS INC COM (SPCE) (Cash), SPCE, VIRGIN GALACTIC HOLDINGS INC COM,Cash,-500,38,,0.10,,18999.9,03/02/2021
+ 02/25/2021, YOU BOUGHT PALANTIR TECHNOLOGIES INC CL A (PLTR) (Cash), PLTR, PALANTIR TECHNOLOGIES INC CL A,Cash,300,24.5,,,,-7350,03/01/2021
+ 02/11/2021, DIVIDEND RECEIVED APPLE INC (AAPL) (Cash), AAPL, APPLE INC,Cash,,,,,,574,
+ 01/29/2021, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.07,1,,,,-0.07,
+ 01/29/2021, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.07,
+ 01/27/2021, YOU SOLD EXONE CO COM USD0.01 (XONE) (Cash), XONE, EXONE CO COM USD0.01,Cash,-4,25.52,,0.01,,102.07,01/29/2021
+ 01/27/2021, YOU SOLD EXONE CO COM USD0.01 (XONE) (Cash), XONE, EXONE CO COM USD0.01,Cash,-296,25.53,,0.17,,7556.71,01/29/2021
+ 01/22/2021, DIVIDEND RECEIVED COMPASS DIVERSIFIED SH BEN INT (CODI) (Cash), CODI, COMPASS DIVERSIFIED SH BEN INT,Cash,,,,,,540,
+ 01/08/2021, DIVIDEND RECEIVED GLOBAL X FDS CANNABIS ETF (POTX) (Cash), POTX, GLOBAL X FDS CANNABIS ETF,Cash,,,,,,145.26,
+ 01/04/2021, YOU SOLD SUNPOWER CORP (SPWR) (Cash), SPWR, SUNPOWER CORP,Cash,-200,25.6,,0.12,,5119.88,01/06/2021
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 04/09/2021, 5:42 PM

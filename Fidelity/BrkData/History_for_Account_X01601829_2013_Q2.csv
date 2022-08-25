@@ -1,0 +1,49 @@
+
+
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 06/28/2013, REINVESTMENT, 315994103, CASH,Cash,0.47,1,,,,-0.47,
+ 06/28/2013, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.47,
+ 06/27/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,35,1,,,,-35,
+ 06/27/2013, DIVIDEND RECEIVED, NEM, NEWMONT MNG CORP HLDG CO,Margin,,,,,,35,
+ 06/24/2013, EXPIRED              CALL (AAPL)         APPLE INC as of 06/21/2013, -AAPL130622C650, CALL (AAPL) APPLE INC JUN 22 13 $650 (100 SHS),Margin,-2,,,,,,
+ 05/31/2013, REINVESTMENT, 315994103, CASH,Cash,0.38,1,,,,-0.38,
+ 05/31/2013, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.38,
+ 05/28/2013, JOURNALED            JNL VS A/C TYPES, , No Description,Margin,,,,,,-0.02,
+ 05/28/2013, JOURNALED            JNL VS A/C TYPES, , No Description,Cash,,,,,,0.02,
+ 05/24/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,0.02,1,,,,-0.02,
+ 05/24/2013, DIVIDEND RECEIVED, C, CITIGROUP INC COM NEW,Margin,,,,,,0.02,
+ 05/22/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,13383.79,1,,,,-13383.79,
+ 05/22/2013, JOURNALED            JNL VS A/C TYPES, , No Description,Margin,,,,,,-13383.79,
+ 05/22/2013, JOURNALED            JNL VS A/C TYPES, , No Description,Cash,,,,,,13383.79,
+ 05/20/2013, ASSIGNED as of 05/17/2013, -HAIN130518C60, CALL (HAIN) HAIN CELESTIAL GROUP MAY 18 13 $60 (100 SHS),Margin,1,,,,,,
+ 05/20/2013, ASSIGNED as of 05/17/2013, -BRCM130518C37, CALL (BRCM) BROADCOM CORP MAY 18 13 $37 (100 SHS),Margin,2,,,,,,
+ 05/20/2013, YOU SOLD             ASSIGNED CALLS      AS OF 05-17-13, HAIN, HAIN CELESTIAL GROUP INC,Margin,-100,60, 7.95,0.14,,5991.91, 05/22/2013
+ 05/20/2013, YOU SOLD             ASSIGNED CALLS      AS OF 05-17-13, BRCM, BROADCOM CORP CL A,Margin,-200,37, 7.95,0.17,,7391.88, 05/22/2013
+ 05/16/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,5791.92,1,,,,-5791.92, 
+ 05/16/2013, JOURNALED            JNL VS A/C TYPES, , No Description,Margin,,,,,,-5791.92, 
+ 05/16/2013, JOURNALED            JNL VS A/C TYPES, , No Description,Cash,,,,,,5791.92, 
+ 05/14/2013, ASSIGNED as of 05/13/2013, -MSFT130622C29, CALL (MSFT) MICROSOFT CORP JUN 22 13 $29 (100 SHS),Margin,2,,,,,, 
+ 05/14/2013, YOU SOLD             ASSIGNED CALLS      EX-DIV DATE 05/14/13 as of 05/13/2013, MSFT, MICROSOFT CORP,Margin,-200,29, 7.95,0.13,,5791.92, 05/16/2013
+ 05/13/2013, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,91.97,1,,,,-91.97, 
+ 05/13/2013, JOURNALED            JNL VS A/C TYPES, , No Description,Margin,,,,,,-91.97, 
+ 05/13/2013, JOURNALED            JNL VS A/C TYPES, , No Description,Cash,,,,,,91.97, 
+ 05/10/2013, YOU SOLD             OPENING TRANSACTION, -OVTI130921C17, CALL (OVTI) OMNIVISION SEP 21 13 $17 (100 SHS),Margin,-2,0.5, 7.95,0.08,,91.97, 05/13/2013
+ 04/30/2013, REINVESTMENT, 315994103, CASH,Cash,0.31,1,,,,-0.31, 
+ 04/30/2013, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.31, 
+ 04/22/2013, EXPIRED              CALL (AAPL)         APPLE INC as of 04/19/2013, -AAPL130420C750, CALL (AAPL) APPLE INC APR 20 13 $750 (100 SHS),Margin,-2,,,,,, 
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 12/07/2014, 5:09 PM

@@ -1,0 +1,37 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 12/31/2021, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.42,1,,,,-0.42,
+ 12/31/2021, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.42,
+ 12/23/2021, DIVIDEND RECEIVED NVIDIA CORPORATION COM (NVDA) (Cash), NVDA, NVIDIA CORPORATION COM,Cash,,,,,,4,
+ 12/09/2021, YOU BOUGHT CLOSING TRANSACTION PUT (AI) C3 AI INC CL A JAN 21 22 $30 (100 SHS) (Cash), -AI220121P30, PUT (AI) C3 AI INC CL A JAN 21 22 $30 (100 SHS),Cash,3,2.32,1.76,0.06,,-697.82,12/10/2021
+ 12/03/2021, YOU BOUGHT UBER TECHNOLOGIES INC COM (UBER) (Cash), UBER, UBER TECHNOLOGIES INC COM,Cash,400,36,,,,-14400,12/07/2021
+ 12/01/2021, YOU SOLD OPENING TRANSACTION PUT (AI) C3 AI INC CL A JAN 21 22 $30 (100 SHS) (Cash), -AI220121P30, PUT (AI) C3 AI INC CL A JAN 21 22 $30 (100 SHS),Cash,-3,2.65,1.76,0.07,,793.17,12/02/2021
+ 11/30/2021, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.49,1,,,,-0.49,
+ 11/30/2021, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.49,
+ 11/12/2021, YOU BOUGHT TESLA INC COM (TSLA) (Cash), TSLA, TESLA INC COM,Cash,25,1024,,,,-25600,11/16/2021
+ 11/11/2021, DIVIDEND RECEIVED APPLE INC (AAPL) (Cash), AAPL, APPLE INC,Cash,,,,,,176,
+ 11/11/2021, YOU SOLD APPLE INC (AAPL) (Cash), AAPL, APPLE INC,Cash,-200,148,,0.16,,29599.84,11/15/2021
+ 11/09/2021, YOU SOLD OPENING TRANSACTION CALL (QS) QUANTUMSCAPE CORP JAN 21 22 $60 (100 SHS) (Cash), -QS220121C60, CALL (QS) QUANTUMSCAPE CORP JAN 21 22 $60 (100 SHS),Cash,-2,2.1,1.17,0.05,,418.78,11/10/2021
+ 11/09/2021, YOU SOLD OPENING TRANSACTION CALL (AI) C3 AI INC CL A JAN 21 22 $75 (100 SHS) (Cash), -AI220121C75, CALL (AI) C3 AI INC CL A JAN 21 22 $75 (100 SHS),Cash,-3,1.5,1.76,0.07,,448.17,11/10/2021
+ 10/29/2021, REINVESTMENT FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.47,1,,,,-0.47,
+ 10/29/2021, DIVIDEND RECEIVED FIDELITY GOVERNMENT CASH RESERVES (FDRXX) (Cash), FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.47,
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 04/04/2022, 10:08 AM

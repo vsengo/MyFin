@@ -1,0 +1,43 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 06/30/2020, DIVIDEND RECEIVED INVESCO EXCHANGE TRADED FD TR WILDERHIL (PBW) (Cash), PBW, INVESCO EXCHANGE TRADED FD TR WILDERHIL,Cash,,,,,,0.18,
+ 06/30/2020, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.12,1,,,,-0.12,
+ 06/30/2020, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.12,
+ 06/30/2020, YOU BOUGHT WORKHORSE GROUP INC COM NEW (WKHS) (Cash), WKHS, WORKHORSE GROUP INC COM NEW,Cash,10,17.22,,,,-172.2,07/02/2020
+ 06/30/2020, YOU BOUGHT BLOCK INC CL A (SQ) (Cash), SQ, BLOCK INC CL A,Cash,5,104.8,,,,-523.99,07/02/2020
+ 06/25/2020, DIVIDEND RECEIVED SPDR SER TR S&P BIOTECH (XBI) (Cash), XBI, SPDR SER TR S&P BIOTECH,Cash,,,,,,0.45,
+ 06/24/2020, YOU BOUGHT VIRGIN GALACTIC HOLDINGS INC COM (SPCE) (Cash), SPCE, VIRGIN GALACTIC HOLDINGS INC COM,Cash,10,15.51,,,,-155.1,06/26/2020
+ 06/24/2020, YOU BOUGHT GLOBAL X FDS GLOBAL X CONSCIOUS COS ETF (KRMA) (Cash), KRMA, GLOBAL X FDS GLOBAL X CONSCIOUS COS ETF,Cash,10,21.56,,,,-215.6,06/26/2020
+ 06/24/2020, YOU BOUGHT GLOBAL X FDS ARTIFICIAL ETF (AIQ) (Cash), AIQ, GLOBAL X FDS ARTIFICIAL ETF,Cash,10,20.43,,,,-204.3,06/26/2020
+ 06/24/2020, YOU BOUGHT GLOBAL X FDS CLOUD COMPUTNG (CLOU) (Cash), CLOU, GLOBAL X FDS CLOUD COMPUTNG,Cash,5,21.03,,,,-105.15,06/26/2020
+ 06/24/2020, YOU BOUGHT GLOBAL X FDS CYBRSCURTY ETF (BUG) (Cash), BUG, GLOBAL X FDS CYBRSCURTY ETF,Cash,5,19.55,,,,-97.73,06/26/2020
+ 06/19/2020, DIVIDEND RECEIVED ISHARES TR ISHARES BIOTECH (IBB) (Cash), IBB, ISHARES TR ISHARES BIOTECH,Cash,,,,,,3.42,
+ 05/29/2020, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.13,1,,,,-0.13,
+ 05/29/2020, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.13,
+ 05/13/2020, YOU BOUGHT SPDR SER TR S&P BIOTECH (XBI) (Cash), XBI, SPDR SER TR S&P BIOTECH,Cash,5,98.6,,,,-492.98,05/15/2020
+ 05/13/2020, YOU BOUGHT ISHARES TR ISHARES BIOTECH (IBB) (Cash), IBB, ISHARES TR ISHARES BIOTECH,Cash,7,128.31,,,,-898.14,05/15/2020
+ 05/13/2020, YOU BOUGHT GLOBAL X FDS RBTCS ARTFL INTE (BOTZ) (Cash), BOTZ, GLOBAL X FDS RBTCS ARTFL INTE,Cash,10,20.91,,,,-209.05,05/15/2020
+ 04/30/2020, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.11,1,,,,-0.11,
+ 04/30/2020, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.11,
+ 04/22/2020, Electronic Funds Transfer Received (Cash),  , No Description,Cash,,,,,,10000,
+ 04/16/2020, YOU BOUGHT GLOBAL X FDS CLOUD COMPUTNG (CLOU) (Cash), CLOU, GLOBAL X FDS CLOUD COMPUTNG,Cash,5,16.24,,,,-81.2,04/20/2020
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 05/18/2022, 2:40 PM

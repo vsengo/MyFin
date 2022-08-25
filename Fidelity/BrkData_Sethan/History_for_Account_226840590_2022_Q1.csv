@@ -1,0 +1,38 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 03/31/2022, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.01,1,,,,-0.01,
+ 03/31/2022, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.01,
+ 03/29/2022, DIVIDEND RECEIVED VANGUARD INDEX FUNDS S&P 500 ETF USD (VOO) (Cash), VOO, VANGUARD INDEX FUNDS S&P 500 ETF USD,Cash,,,,,,13.74,
+ 03/10/2022, DIVIDEND RECEIVED MICROSOFT CORP (MSFT) (Cash), MSFT, MICROSOFT CORP,Cash,,,,,,3.1,
+ 02/28/2022, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.01,1,,,,-0.01,
+ 02/28/2022, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.01,
+ 02/01/2022, YOU BOUGHT VANGUARD INDEX FUNDS S&P 500 ETF USD (VOO) (Cash), VOO, VANGUARD INDEX FUNDS S&P 500 ETF USD,Cash,10,414.16,,,,-4141.6,02/03/2022
+ 01/31/2022, REINVESTMENT FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,0.04,1,,,,-0.04,
+ 01/31/2022, DIVIDEND RECEIVED FIDELITY GOVERNMENT MONEY MARKET (SPAXX) (Cash), SPAXX, FIDELITY GOVERNMENT MONEY MARKET,Cash,,,,,,0.04,
+ 01/31/2022, YOU BOUGHT ARK ETF TR INNOVATION ETF (ARKK) (Cash), ARKK, ARK ETF TR INNOVATION ETF,Cash,20,73.3,,,,-1466,02/02/2022
+ 01/27/2022, YOU BOUGHT PLUG POWER INC (PLUG) (Cash), PLUG, PLUG POWER INC,Cash,50,19.02,,,,-950.98,01/31/2022
+ 01/18/2022, CASH CONTRIBUTION CURRENT YEAR (Cash), , No Description,Cash,,,,,,6000,
+ 01/07/2022, DIVIDEND RECEIVED GLOBAL X LITHIUM AND BATTERY TECH ETF (LIT) (Cash), LIT, GLOBAL X LITHIUM AND BATTERY TECH ETF,Cash,,,,,,4.43,
+ 01/07/2022, DIVIDEND RECEIVED GLOBAL X FDS GLOBAL X CONSCIOUS COS ETF (KRMA) (Cash), KRMA, GLOBAL X FDS GLOBAL X CONSCIOUS COS ETF,Cash,,,,,,7.34,
+ 01/07/2022, DIVIDEND RECEIVED GLOBAL X FDS RENEWABLE ENERGY (RNRG) (Cash), RNRG, GLOBAL X FDS RENEWABLE ENERGY,Cash,,,,,,4.93,
+ 01/07/2022, DIVIDEND RECEIVED GLOBAL X FDS CANNABIS ETF (POTX) (Cash), POTX, GLOBAL X FDS CANNABIS ETF,Cash,,,,,,3.05,
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 05/18/2022, 2:39 PM

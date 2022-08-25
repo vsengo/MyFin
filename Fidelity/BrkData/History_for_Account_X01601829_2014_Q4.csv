@@ -1,0 +1,35 @@
+
+
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 12/31/2014, REINVESTMENT, 315994103, CASH,Cash,0.62,1,,,,-0.62,
+ 12/31/2014, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.62,
+ 12/17/2014, YOU SOLD             OPENING TRANSACTION, -NOK150220C8, CALL (NOK) NOKIA OYJ ADR EACH FEB 20 15 $8 (100 SHS),Margin,-7,0.37, 11.66,0.25,,247.09, 12/18/2014
+ 12/16/2014, Electronic Funds Transfer Received,  , No Description,Cash,,,,,,20000, 
+ 12/02/2014, YOU BOUGHT, QID, PROSHARES TR ULTRASHORT ISIN #US74348A4,Margin,150,38.68, 7.95,,,-5809.94, 12/05/2014
+ 11/28/2014, REINVESTMENT, 315994103, CASH,Cash,0.58,1,,,,-0.58, 
+ 11/28/2014, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.58, 
+ 11/26/2014, DIVIDEND RECEIVED, C, CITIGROUP INC COM NEW,Margin,,,,,,0.02, 
+ 11/20/2014, YOU SOLD             OPENING TRANSACTION, -WFM150220C52.5, CALL (WFM) WHOLE FOODS MKT INC FEB 20 15 $52.5 (100 SHS),Margin,-1,1.1, 7.95,0.04,,102.01, 11/21/2014
+ 11/10/2014, YOU BOUGHT, DDD, 3D SYSTEMS CORP DEL COM NEW,Margin,150,36.12, 7.95,,,-5425.95, 11/14/2014
+ 10/31/2014, REINVESTMENT, 315994103, CASH,Cash,0.68,1,,,,-0.68, 
+ 10/31/2014, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.68, 
+ 10/15/2014, YOU BOUGHT, NOK, NOKIA OYJ ADR EACH REPR 1 ORD NPV,Margin,700,7.65, 7.95,,,-5362.95, 10/20/2014
+ 10/15/2014, YOU BOUGHT, FEYE, FIREEYE INC COM USD0.0001,Margin,100,25.9, 7.95,,,-2597.95, 10/20/2014
+ 10/07/2014, DIVIDEND RECEIVED, WFM, WHOLE FOODS MKT INC,Margin,,,,,,18, 
+ 10/07/2014, YOU BOUGHT, CREE, CREE INC,Margin,150,32.55, 7.95,,,-4890.45, 10/10/2014
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 01/01/2015, 10:20 AM

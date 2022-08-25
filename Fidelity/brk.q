@@ -45,8 +45,13 @@ load_data:{[f];
 				`transaction insert ("D"$rec[0];`$rec[1];`$rec[2];`$rec[3];`$rec[4];"F"$rec[5];"F"$rec[6];"F"$rec[7];"F"$rec[8];"F"$rec[9];"F"$rec[10];"D"$rec[11];.dt.acc) ]]; } each tx;
 	}
 load_data each system "ls ",.arg.dataDir," | grep History_for_Account_";
-ACCOUNT:("SSFF";enlist ",") 0:`$":",.arg.dataDir,"/account.csv"
+transaction:(`date) xasc transaction
 
+ACCOUNT:("SSFF";enlist ",") 0:`$":",.arg.dataDir,"/account.csv"
+/security_info:update earning_date:`date$earning_date, earning_time:{$[15:00.00 <`time$x;`PM;`AM]}'[earning_date] from ("SZFSSFFFFFFF";enlist ",") 0:`$":security_info.csv"
+/secmaster:secmaster lj 1!select sym, earning_date, earning_time,tgtHigh,fifty2wkHigh,fifty2wkLow from security_info
+/update earning_date:1900.01.01 from `secmaster where earning_date = 0Nd
+//Corporate actions
 ca_split:([sym:`symbol$();date:`date$()]; old:`float$();new:`float$());
 `ca_split insert (`NUGT;2020.04.23;4.0;1.0);
 `ca_split insert (`QID;2018.05.24;4.0;1.0);
@@ -54,6 +59,7 @@ ca_split:([sym:`symbol$();date:`date$()]; old:`float$();new:`float$());
 `ca_split insert (`SQQQ;2020.08.18;5.0;1.0);
 `ca_split insert (`TSLA;2020.08.31;1.0;5.0);
 `ca_split insert (`NVDA;2021.07.20;1.0;4.0);
+`ca_split insert (`TSLA;2022.08.25;1.0;3.0);
 
 ca_merger:([];sym:`symbol$();date:`date$(); to:`symbol$();qty:`int$();toQty:`int$())
 `ca_merger insert (`SCTY;2016.11.22;`TSLA;100;11);
@@ -64,6 +70,7 @@ ca_merger:([];sym:`symbol$();date:`date$(); to:`symbol$();qty:`int$();toQty:`int
 `ca_merger insert (`NRG;2015.05.16;`CWEN;100;200);
 `ca_merger insert (`FB;2022.06.08;`META;100;100);
 `ca_merger insert (`4750169AS;2022.06.08;`$"-FB220617C210";100;100);
+`ca_merger insert (`25460E844;2020.01.08;`NUGT;100;100);
 
 ca_delist:([];sym:`symbol$();date:`date$();price:`float$());
 `ca_delist insert(`SIFY;2021.06.01;0.0);
@@ -153,6 +160,7 @@ opt_spreadpair:select from opt_spread where strategy=`spread
 	.lg.out["applying split to ", string[x`sym]];
 	factor:(x`new) % x`old;
 	update qty:qty*factor, cost:cost%factor from `transaction where sym=x`sym, date <= x`date;
+	update qty:qty*factor, cost:cost%factor, strike:strike%factor from `opt_transaction where underlying=x`sym, date<=x`date; 
 	} each 0!ca_split;
 
 position_current:update avg_cost: amount % qty from select sum amount, invested:sum {$[x~`BUY;y;0]}'[action;amount], sum qty, long_qty:sum {$[x~`BUY;y;0]}'[action;qty], last account  by sym  from transaction where action in (`BUY`SELL);
@@ -283,7 +291,9 @@ if [ 0 < count position_opt_exp;
 	delete from `PROFIT_OPTION where roi < 60;
 
 	CURRENT_EQTY:CURRENT_EQTY lj select optCallQty:sum 100*qty, min strike, min expDate  by sym from CURRENT_OPTION where putcall=`C;
-	INVEST_OPTION_CALL:select cost:(sum qty*costBasis) % (sum qty) ,distinct Close,(sum qty + 0^optCallQty)%100, last costBasis  by sym, acc_name from CURRENT_EQTY;
+	/INVEST_OPTION_CALL:select cost:(sum qty*costBasis) % (sum qty) ,distinct Close,(sum qty + 0^optCallQty)%100, last costBasis, last earning_date  by sym, acc_name from CURRENT_EQTY;
+	INVEST_OPTION_CALL:select cost:(sum qty*costBasis) % (sum qty) ,distinct Close,(sum qty + 0^optCallQty)%100, last costBasis by sym, acc_name from CURRENT_EQTY;
+
 	delete from `INVEST_OPTION_CALL where qty=0;
 	delete from `INVEST_OPTION_CALL where sym in (`CUBA`CLM`IFN`AGNC);
 	INVEST_OPTION_CALL:delete cost, prevClose, perChg, upnl from update strike:ceiling (Close + stdClose)  from INVEST_OPTION_CALL lj (`sym) xkey quoteStats;
@@ -291,6 +301,8 @@ if [ 0 < count position_opt_exp;
 	INVEST_OPTION_PUTT:INVEST_OPTION_PUTT lj (`sym) xkey quoteStats;
 	INVEST_OPTION_PUTT:INVEST_OPTION_PUTT lj select oldqty:sum qty, oldstrike:avg strike by sym from CURRENT_OPTION where putcall=`P;
 	INVEST_OPTION_PUTT:INVEST_OPTION_PUTT lj `sym xkey select sym, curQty:qty, costBasis  from CURRENT_EQTY;
+	/INVEST_OPTION_PUTT:INVEST_OPTION_PUTT lj 1!select sym, earning_date from secmaster;
+	/INVEST_OPTION_PUTT:INVEST_OPTION_PUTT lj 1!select sym  from secmaster;
 	INVEST_OPTION_PUTT:select sym, qty + 0.0^oldqty, strike, invest:qty*100*strike,  oldqty, oldstrike, costBasis, Close, minClose, maxClose, stdClose from INVEST_OPTION_PUTT;
 	delete from `INVEST_OPTION_PUTT where qty <=0;
 	(`upnl) xdesc update upnl:ceiling 100.0*(strike - costBasis) % abs costBasis, ceiling strike from  `INVEST_OPTION_CALL;
@@ -345,9 +357,12 @@ rpnl:first exec sum rpnl from pnl_yearly where year= `year$.z.D
 upnl:first exec sum upnl from CURRENT_EQTY where upnl>0.0
 uloss:first exec sum upnl from CURRENT_EQTY where upnl<0.0
 totpnl:`int$(rpnl+divrpnl+optrpnl)
+optCash:`int$first cash`opt_cash
+totCash:`int$first cash`total_cash
+
 
 `BALANCE insert (`Invested;`int$first tmp`invested;0;0.0;100*(`int$first tmp`invested)%capital)
-`BALANCE insert (`CoveredCash; `int$first cash`opt_cash;0;0.0;100*(`int$abs first cash`opt_cash)%cash`total_cash)
+`BALANCE insert (`CoveredCash;optCash;totCash+optCash;0.0;100*(`int$abs first cash`opt_cash)%cash`total_cash)
 `BALANCE insert (`$"Realized Stock"; `int$rpnl;0;0.0;100*rpnl%capital);
 `BALANCE insert (`$"Realized Option"; `int$optrpnl;0;0.0;100*optrpnl%capital);
 `BALANCE insert (`$"Realized Dividend";`int$divrpnl;`int$divFuture;0.0;100*divrpnl%capital);
@@ -368,7 +383,7 @@ totpnl:`int$(rpnl+divrpnl+optrpnl)
 
 /webservices
 getCurrentEqty:{[];
-	select sym, acc_name, qty, costBasis, Close, mktValue, upnl, invested, income:divInc + optInc + rpnl, 0.0^roi from CURRENT_EQTY}
+	select sym, qty, costBasis, origCost, Close, mktValue, upnl, invested, income:divInc + optInc + rpnl, 0.0^roi from CURRENT_EQTY}
 
 getCurrentOptions:{[]
 	select sym, acc_name, expDate, putcall, strike, `int$strike^Close, `int$0.0^costBasis, qty, amount, expires:.dt.days2expire'[expDate], risk, 0^upnl from CURRENT_OPTION}
@@ -377,7 +392,7 @@ getBalance:{[]
 	select item, currentValue, futureValue, 0.0^curPer, 0.0^futurePer from BALANCE}
 
 getRiskOption:{[]
-    select sym,expDate, putcall, strike, Close, costBasis, `int$0^upnl,perCloser:`int$100*(strike - Close)%strike, risk,  qty, amount, reason from RISK_OPTION}
+    select sym,expDate, putcall, strike, Close, 0.0^costBasis, `int$0^upnl,perCloser:`int$100*(strike - Close)%strike, risk,  qty, amount, reason from RISK_OPTION}
 
 getAccount:{[]
     select from ACCOUNT}
@@ -397,7 +412,7 @@ getIncByMonth:{[]
 	weeklyCall:select call:sum amount by expDate from position_opt_exp where expDate > .z.D, putcall=`C;
 	weeklyPutt:select put:sum amount by expDate from position_opt_exp where expDate > .z.D, putcall=`P;
 	weeklys:`expDate xdesc update call:`int$0.0^call, put:`int$0.0^put, dividend:0i from 0!weeklyCall uj weeklyPutt;
-	dividend:1!select expDate:month, dividend:`int$divIncd from dividendByMonth where month >= `month$2022.02.01;
+	dividend:1!select expDate:month, dividend:`int$divIncd from dividendByMonth where month >= `month$2022.01.01;
 	monthlys:update dividend:0i^dividend from 0!calls lj puts lj dividend;
 	update `$string expDate from weeklys,monthlys}
 

@@ -1,0 +1,52 @@
+
+
+
+Brokerage
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 12/31/2020, REINVESTMENT CASH (315994103) (Cash), 315994103, CASH,Cash,0.99,1,,,,-0.99,
+ 12/31/2020, DIVIDEND RECEIVED ETF SER SOLUTIONS US GLB JETS (JETS) (Margin), JETS, ETF SER SOLUTIONS US GLB JETS,Margin,,,,,,0.56,
+ 12/31/2020, INTEREST EARNED CASH (315994103) (Cash), 315994103, CASH,Cash,,,,,,0.99,
+ 12/31/2020, SHORT-TERM CAP GAIN ETF SER SOLUTIONS US GLB JETS (JETS) (Margin), JETS, ETF SER SOLUTIONS US GLB JETS,Margin,,,,,,8.6,
+ 12/30/2020, DIVIDEND RECEIVED INDIA FUND INC (IFN) (Margin), IFN, INDIA FUND INC,Margin,,,,,,150,
+ 12/21/2020, EXPIRED CALL (TOL) TOLL BROTHERS INC as of 12/18/2020 CALL (TOL) TOLL BROTHERS INC DEC 18 20 $50 (100 SHS) (Margin), -TOL201218C50, CALL (TOL) TOLL BROTHERS INC DEC 18 20 $50 (100 SHS),Margin,3,,,,,,
+ 12/21/2020, EXPIRED CALL (IBM) INTERNATIONAL BUS as of 12/18/2020 CALL (IBM) INTERNATIONAL BUS DEC 18 20 $135 (100 SHS) (Margin), -IBM201218C135, CALL (IBM) INTERNATIONAL BUS DEC 18 20 $135 (100 SHS),Margin,3,,,,,,
+ 12/21/2020, YOU SOLD TOLL BROTHERS INC (TOL) (Margin), TOL, TOLL BROTHERS INC,Margin,-300,45.5,,0.31,,13649.69,12/23/2020
+ 12/15/2020, Electronic Funds Transfer Received (Cash), , No Description,Cash,,,,,,30000,
+ 12/11/2020, YOU SOLD PROSHARES TR ULTRASHRT S&P500 (SDS) (Margin), SDS, PROSHARES TR ULTRASHRT S&P500,Margin,-300,13.08,,0.09,,3924.39,12/15/2020
+ 12/10/2020, DIVIDEND RECEIVED INTERNATIONAL BUS MACH CORP COM USD0.20 (IBM) (Margin), IBM, INTERNATIONAL BUS MACH CORP COM USD0.20,Margin,,,,,,489,
+ 12/08/2020, YOU BOUGHT CLOSING TRANSACTION CALL (T) AT&T INC COM USD1 DEC 18 20 $31 (100 SHS) (Margin), -T201218C31, CALL (T) AT&T INC COM USD1 DEC 18 20 $31 (100 SHS),Margin,7,0.46,,0.25,,-322.25,12/09/2020
+ 12/08/2020, YOU BOUGHT CLOSING TRANSACTION CALL (T) AT&T INC COM USD1 DEC 18 20 $31 (100 SHS) (Margin), -T201218C31, CALL (T) AT&T INC COM USD1 DEC 18 20 $31 (100 SHS),Margin,3,0.46,,0.11,,-138.11,12/09/2020
+ 11/30/2020, REINVESTMENT CASH (315994103) (Cash), 315994103, CASH,Cash,0.95,1,,,,-0.95,
+ 11/30/2020, INTEREST EARNED CASH (315994103) (Cash), 315994103, CASH,Cash,,,,,,0.95,
+ 11/25/2020, DIVIDEND RECEIVED CITIGROUP INC (C) (Margin), C, CITIGROUP INC,Margin,,,,,,255,
+ 11/18/2020, YOU BOUGHT CITIGROUP INC (C) (Margin), C, CITIGROUP INC,Margin,200,51.5,,,,-10300,11/20/2020
+ 11/18/2020, YOU BOUGHT BOEING CO COM USD5.00 (BA) (Margin), BA, BOEING CO COM USD5.00,Margin,100,215,,,,-21500,11/20/2020
+ 11/18/2020, CONTRIBUTED TO FIDELITY CHARITABLE Â® (Cash), , No Description,Cash,,,,,,-1000,
+ 11/05/2020, YOU SOLD PROSHARES TR II ULTRA VIX SHORT (UVXY) (Margin), UVXY, PROSHARES TR II ULTRA VIX SHORT,Margin,-250,16.17,,0.09,,4043.04,11/09/2020
+ 11/03/2020, YOU SOLD PROSHARES TR ULTRASHRT S&P500 (SDS) (Margin), SDS, PROSHARES TR ULTRASHRT S&P500,Margin,-100,15.53,,0.04,,1552.46,11/05/2020
+ 11/02/2020, DIVIDEND RECEIVED AT&T INC COM USD1 (T) (Margin), T, AT&T INC COM USD1,Margin,,,,,,520,
+ 10/30/2020, REINVESTMENT CASH (315994103) (Cash), 315994103, CASH,Cash,0.95,1,,,,-0.95,
+ 10/30/2020, INTEREST EARNED CASH (315994103) (Cash), 315994103, CASH,Cash,,,,,,0.95,
+ 10/29/2020, YOU SOLD SPDR GOLD TR GOLD SHS (GLD) (Margin), GLD, SPDR GOLD TR GOLD SHS,Margin,-100,175.5,,0.39,,17549.61,11/02/2020
+ 10/29/2020, YOU SOLD INTEL CORP COM USD0.001 (INTC) (Margin), INTC, INTEL CORP COM USD0.001,Margin,-200,44.35,,0.20,,8869.8,11/02/2020
+ 10/27/2020, YOU BOUGHT CITIGROUP INC (C) (Margin), C, CITIGROUP INC,Margin,300,42.3,,,,-12690,10/29/2020
+ 10/23/2020, DIVIDEND RECEIVED TOLL BROTHERS INC (TOL) (Margin), TOL, TOLL BROTHERS INC,Margin,,,,,,33,
+ 10/13/2020, YOU BOUGHT ETF SER SOLUTIONS US GLB JETS (JETS) (Margin), JETS, ETF SER SOLUTIONS US GLB JETS,Margin,500,17.54,,,,-8771.5,10/15/2020
+ 10/02/2020, YOU BOUGHT PROSHARES TR II ULTRA VIX SHORT (UVXY) (Margin), UVXY, PROSHARES TR II ULTRA VIX SHORT,Margin,200,20.5,,,,-4100,10/06/2020
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security or insurance product by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE. Insurance products at Fidelity are distributed by"
+"Fidelity Insurance Agency, Inc., and, for certain products, by Fidelity Brokerage Services, Member NYSE, SIPC."
+
+"Date downloaded" 01/01/2021, 8:20 AM

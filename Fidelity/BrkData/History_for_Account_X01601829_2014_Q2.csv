@@ -1,0 +1,52 @@
+
+
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 06/30/2014, REINVESTMENT, 315994103, CASH,Cash,0.61,1,,,,-0.61,
+ 06/30/2014, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.61,
+ 06/26/2014, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,5,1,,,,-5,
+ 06/26/2014, DIVIDEND RECEIVED, NEM, NEWMONT MNG CORP HLDG CO,Margin,,,,,,5,
+ 06/25/2014, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,4191.95,1,,,,-4191.95,
+ 06/23/2014, ASSIGNED as of 06/20/2014, -OVTI140621C21, CALL (OVTI) OMNIVISION JUN 21 14 $21 (100 SHS),Margin,2,,,,,,
+ 06/23/2014, YOU SOLD             ASSIGNED CALLS      AS OF 06-20-14, OVTI, OMNIVISION TECHNOLOGIES INC COM ISIN #U,Margin,-200,21, 7.95,0.1,,4191.95, 06/25/2014
+ 06/16/2014, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,24,1,,,,-24, 
+ 06/16/2014, DIVIDEND RECEIVED, BRCM, BROADCOM CORP CL A,Margin,,,,,,24, 
+ 06/11/2014, REDEMPTION FROM CORE ACCOUNT, 315994103, CASH,Cash,-6157.95,1,,,,6157.95, 
+ 06/06/2014, YOU BOUGHT, WFM, WHOLE FOODS MKT INC,Margin,150,41, 7.95,,,-6157.95, 06/11/2014
+ 06/04/2014, REDEMPTION FROM CORE ACCOUNT, 315994103, CASH,Cash,-8625.9,1,,,,8625.9, 
+ 05/30/2014, REINVESTMENT, 315994103, CASH,Cash,0.72,1,,,,-0.72, 
+ 05/30/2014, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.72, 
+ 05/30/2014, YOU BOUGHT, QID, PROSHARES TR ULTRASHORT ISIN #US74348A4,Margin,100,53.14, 7.95,,,-5321.95, 06/04/2014
+ 05/30/2014, YOU BOUGHT, FEYE, FIREEYE INC COM USD0.0001,Margin,100,32.96, 7.95,,,-3303.95, 06/04/2014
+ 05/28/2014, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,153.94,1,,,,-153.94, 
+ 05/27/2014, YOU SOLD             OPENING TRANSACTION, -NEM140816C25, CALL (NEM) NEWMONT MNG CORP AUG 16 14 $25 (100 SHS),Margin,-2,0.41, 7.95,0.08,,73.97, 05/28/2014
+ 05/27/2014, YOU SOLD             OPENING TRANSACTION, -BRCM140816C33, CALL (BRCM) BROADCOM CORP AUG 16 14 $33 (100 SHS),Margin,-2,0.44, 7.95,0.08,,79.97, 05/28/2014
+ 05/23/2014, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,0.02,1,,,,-0.02, 
+ 05/23/2014, DIVIDEND RECEIVED, C, CITIGROUP INC COM NEW,Margin,,,,,,0.02, 
+ 05/19/2014, EXPIRED              CALL (NEM)          NEWMONT MNG CORP as of 05/16/2014, -NEM140517C28, CALL (NEM) NEWMONT MNG CORP MAY 17 14 $28 (100 SHS),Margin,2,,,,,, 
+ 05/19/2014, EXPIRED              CALL (BRCM)         BROADCOM CORP as of 05/16/2014, -BRCM140517C31, CALL (BRCM) BROADCOM CORP MAY 17 14 $31 (100 SHS),Margin,2,,,,,, 
+ 05/05/2014, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,2841.94,1,,,,-2841.94, 
+ 05/02/2014, YOU SOLD             CLOSING TRANSACTION, -AAPL140719C575, CALL (AAPL) APPLE INC JUL 19 14 $575 (100 SHS),Margin,-1,28.5, 7.95,0.11,,2841.94, 05/05/2014
+ 04/30/2014, REINVESTMENT, 315994103, CASH,Cash,0.62,1,,,,-0.62, 
+ 04/30/2014, INTEREST EARNED, 315994103, CASH,Cash,,,,,,0.62, 
+ 04/15/2014, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,91.97,1,,,,-91.97, 
+ 04/14/2014, YOU SOLD             OPENING TRANSACTION, -OVTI140621C21, CALL (OVTI) OMNIVISION JUN 21 14 $21 (100 SHS),Margin,-2,0.5, 7.95,0.08,,91.97, 04/15/2014
+ 04/08/2014, REDEMPTION FROM CORE ACCOUNT, 315994103, CASH,Cash,-5585.83,1,,,,5585.83, 
+ 04/03/2014, PURCHASE INTO CORE ACCOUNT, 315994103, CASH,Cash,4191.91,1,,,,-4191.91, 
+ 04/03/2014, YOU BOUGHT, SDS, PROSHARES TRUST PSHS ULSHT SP500 (POST ,Margin,200,27.89, 7.95,,,-5585.83, 04/08/2014
+ 04/02/2014, YOU SOLD             CLOSING TRANSACTION, -AAPL140419C500, CALL (AAPL) APPLE INC APR 19 14 $500 (100 SHS),Margin,-1,42, 7.95,0.14,,4191.91, 04/03/2014
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 12/07/2014, 5:11 PM

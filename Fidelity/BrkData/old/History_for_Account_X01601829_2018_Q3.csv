@@ -1,0 +1,31 @@
+
+
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 06/29/2018, REINVESTMENT, 315994103, CASH,Cash,16.65,1,,,,-16.65,
+ 06/29/2018, INTEREST EARNED, 315994103, CASH,Cash,,,,,,16.65,
+ 06/27/2018, DIVIDEND RECEIVED, SDS, PROSHARES TR ULTRASHRT S&P500,Margin,,,,,,12.26,
+ 06/27/2018, DIVIDEND RECEIVED, QID, PROSHARES TR ULTSHRT QQQ,Margin,,,,,,8.38,
+ 05/31/2018, REINVESTMENT, 315994103, CASH,Cash,16.61,1,,,,-16.61,
+ 05/31/2018, INTEREST EARNED, 315994103, CASH,Cash,,,,,,16.61,
+ 05/25/2018, DIVIDEND RECEIVED, C, CITIGROUP INC COM NEW,Margin,,,,,,32,
+ 05/25/2018, IN LIEU OF FRX SHARE LEU PAYOUT 74348A426#REORLM0051125220001, QID, PROSHARES TR ULTSHRT QQQ,Margin,,,,,,21.42,
+ 05/24/2018, REVERSE SPLIT        R/S TO     74347B243#REOR M0051125220000, 74348A426, PROSHARES TR ULTRASHORT 1 FOR 4 R/S INT,Margin,-250,,,,,,
+ 05/24/2018, REVERSE SPLIT        R/S FROM   74348A426#REOR M0051125220001, QID, PROSHARES TR ULTSHRT QQQ,Margin,62,,,,,,
+ 04/30/2018, REINVESTMENT, 315994103, CASH,Cash,15.53,1,,,,-15.53,
+ 04/30/2018, INTEREST EARNED, 315994103, CASH,Cash,,,,,,15.53,
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 01/03/2019, 9:06 PM

@@ -1,0 +1,38 @@
+
+
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 06/30/2015, REINVESTMENT, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.26,1,,,,-0.26,
+ 06/30/2015, DIVIDEND RECEIVED, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.26,
+ 06/26/2015, DIVIDEND RECEIVED, EPI, WISDOMTREE TR INDIA EARNINGS FD ISIN #U,Cash,,,,,,20.19,
+ 06/25/2015, FEE CHARGED, SIFY, SIFY TECHNOLOGIES LIMITED ADR EACH REP ,Cash,,,,,,-2.17,
+ 06/25/2015, DIVIDEND RECEIVED, SIFY, SIFY TECHNOLOGIES LIMITED ADR EACH REP ,Cash,,,,,,10.96,
+ 06/23/2015, YOU BOUGHT, EPI, WISDOMTREE TR INDIA EARNINGS FD ISIN #U,Cash,200,22.05, 7.95,,,-4417.95, 06/26/2015
+ 06/23/2015, YOU SOLD, FXE, CURRENCYSHARES EURO TR EURO SHS,Cash,-100,109.64, 7.95,0.21,,10955.84, 06/26/2015
+ 06/15/2015, DIVIDEND RECEIVED, NYLD, NRG YIELD INC CL C,Cash,,,,,,40, 
+ 06/15/2015, DIVIDEND RECEIVED, NYLDA, NRG YIELD INC CL A NEW,Cash,,,,,,40, 
+ 05/29/2015, REINVESTMENT, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.29,1,,,,-0.29, 
+ 05/29/2015, DIVIDEND RECEIVED, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.29, 
+ 05/29/2015, YOU BOUGHT, SSYS, STRATASYS LTD SHS ISIN #IL0011267213 SE,Cash,100,35.94, 7.95,,,-3601.94, 06/03/2015
+ 05/15/2015, MERGER               MER FROM   62942X108#REOR M0050911630002, NYLD, NRG YIELD INC CL C,Cash,200,,,,,, 
+ 05/15/2015, MERGER               MER FROM   62942X108#REOR M0050911630001, NYLDA, NRG YIELD INC CL A NEW,Cash,200,,,,,, 
+ 05/15/2015, MERGER               MER PAYOUT          #REOR M0050911630000, 62942X108, NRG YIELD INC COM USD0.01 CL A **EXCHAN,Cash,-200,,,,,, 
+ 05/14/2015, DIVIDEND RECEIVED, AAPL, APPLE INC,Cash,,,,,,338, 
+ 04/30/2015, REINVESTMENT, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,0.34,1,,,,-0.34, 
+ 04/30/2015, DIVIDEND RECEIVED, FDRXX, FIDELITY GOVERNMENT CASH RESERVES,Cash,,,,,,0.34, 
+ 04/17/2015, YOU BOUGHT, FXE, CURRENCYSHARES EURO TR EURO SHS,Cash,100,105.91, 7.95,,,-10598.95, 04/22/2015
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 01/02/2016, 9:13 AM

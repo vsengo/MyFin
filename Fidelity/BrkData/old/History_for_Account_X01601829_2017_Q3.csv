@@ -1,0 +1,30 @@
+
+
+
+Run Date,Action,Symbol,Security Description,Security Type,Quantity,Price ($),Commission ($),Fees ($),Accrued Interest ($),Amount ($),Settlement Date
+ 09/29/2017, REINVESTMENT, 315994103, CASH,Cash,4.48,1,,,,-4.48,
+ 09/29/2017, INTEREST EARNED, 315994103, CASH,Cash,,,,,,4.48,
+ 08/31/2017, REINVESTMENT, 315994103, CASH,Cash,4.18,1,,,,-4.18,
+ 08/31/2017, INTEREST EARNED, 315994103, CASH,Cash,,,,,,4.18,
+ 08/28/2017, MERGER               MER PAYOUT          #REORCM0051064210000, 966837106, WHOLE FOODS MARKET INC COM STK NPV *CAS,Margin,-100,42,,,,4200,
+ 08/25/2017, DIVIDEND RECEIVED, C, CITIGROUP INC COM NEW,Margin,,,,,,32,
+ 07/31/2017, REINVESTMENT, 315994103, CASH,Cash,4.13,1,,,,-4.13,
+ 07/31/2017, INTEREST EARNED, 315994103, CASH,Cash,,,,,,4.13,
+ 07/17/2017, REVERSE SPLIT        R/S FROM   74347B300#REOR M0051065240001, SDS, PROSHARES TR ULTRASHRT S&P500,Margin,100,,,,,,
+ 07/17/2017, REVERSE SPLIT        R/S TO     74347B383#REOR M0051065240000, 74347B300, PROSHARES TRUST PSHS ULSHT SP500 1 FOR ,Margin,-400,,,,,,
+ 07/11/2017, DIVIDEND RECEIVED, 966837106, WHOLE FOODS MARKET INC COM STK NPV *CAS,Margin,,,,,,18,
+
+
+
+
+
+"The data and information in this spreadsheet is provided to you solely for your use and is not for distribution. The spreadsheet is provided for"
+"informational purposes only, and is not intended to provide advice, nor should it be construed as an offer to sell, a solicitation of an offer to buy or a"
+"recommendation for any security by Fidelity or any third party. Data and information shown is based on information known to Fidelity as of the date it was"
+"exported and is subject to change. It should not be used in place of your account statements or trade confirmations and is not intended for tax reporting"
+"purposes. For more information on the data included in this spreadsheet, including any limitations thereof, go to Fidelity.com."
+
+"Brokerage services are provided by Fidelity Brokerage Services LLC, 900 Salem Street, Smithfield, RI 02917. Custody and other services provided by National"
+"Financial Services LLC. Both are Fidelity Investment companies and members SIPC, NYSE."
+
+"Date downloaded" 02/12/2018, 7:11 PM
