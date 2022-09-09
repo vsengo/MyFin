@@ -20,6 +20,7 @@ qtr:$[mt < 4;"1";$[mt < 7;"2";$[mt<10;"3";"4"]]]
 	} each 1 _ read0 `:symbols.txt;
 
 WATCHLIST:("SSJF";enlist ",") 0:`$":",.arg.dataDir,"/watchlist.csv";
+WATCHLIST:(`sym) xcol WATCHLIST
 
 {
 	nf:(-4 _ x),"_",yr,"_Q",qtr,".csv";
@@ -60,6 +61,18 @@ ca_split:([sym:`symbol$();date:`date$()]; old:`float$();new:`float$());
 `ca_split insert (`TSLA;2020.08.31;1.0;5.0);
 `ca_split insert (`NVDA;2021.07.20;1.0;4.0);
 `ca_split insert (`TSLA;2022.08.25;1.0;3.0);
+
+ca_splitopt:([sym:`symbol$();date:`date$()]; newsym:`symbol$();old:`float$();new:`float$());
+`ca_splitopt insert (`6024499BX;2022.08.25;`$"-TSLA220826P266.67";1.0;3.0);
+`ca_splitopt insert (`6024499LH;2022.08.25;`$"-TSLA220826C358.33";1.0;3.0);
+`ca_splitopt insert (`6024489UU;2022.08.25;`$"-TSLA220826C330.0";1.0;3.0);
+`ca_splitopt insert (`6024499RR;2022.08.25;`$"-TSLA220826P290";1.0;3.0);
+`ca_splitopt insert (`6024499PP;2022.08.25;`$"-TSLA220826P270";1.0;3.0);
+`ca_splitopt insert (`6058419AU;2022.08.25;`$"-TSLA220902C353.33";1.0;3.0);
+`ca_splitopt insert (`6076299PP;2022.08.25;`$"-TSLA220923P273.33";1.0;3.0);
+`ca_splitopt insert (`5731699BT;2022.08.25;`$"-TSLA220916C356.67";1.0;3.0);
+`ca_splitopt insert (`6076299TP;2022.08.25;`$"-TSLA220923C358.33";1.0;3.0);
+`ca_splitopt insert (`6056539KI;2022.08.25;`$"-TSLA220902P256.67";1.0;3.0);
 
 ca_merger:([];sym:`symbol$();date:`date$(); to:`symbol$();qty:`int$();toQty:`int$())
 `ca_merger insert (`SCTY;2016.11.22;`TSLA;100;11);
@@ -117,8 +130,14 @@ update sym:`NYLDA  from `transaction where sym=`62942X405;
 update sym:`IPOC from `transaction where sym=`G8251K107;
 update sym:`$"-FB220617C210" from `transaction where sym=`4750169AS;
 
+{
+	.lg.out["applying options split to ", string[x`sym]];
+	update sym:x`newsym from `transaction where sym=x`sym, date<=x`date; 
+	} each 0!ca_splitopt;
+
 opt_transaction:select from transaction where sym like "-*"
-transaction:delete from transaction where sym like "-*";
+transaction:delete from transaction where sym in exec distinct sym from opt_transaction
+
 /convert opra symbols to sym,putcall,exp,price
 optsym:{[sym;t];
 	n:first (string sym) ss "[12][0123456789]";
@@ -160,8 +179,13 @@ opt_spreadpair:select from opt_spread where strategy=`spread
 	.lg.out["applying split to ", string[x`sym]];
 	factor:(x`new) % x`old;
 	update qty:qty*factor, cost:cost%factor from `transaction where sym=x`sym, date <= x`date;
-	update qty:qty*factor, cost:cost%factor, strike:strike%factor from `opt_transaction where underlying=x`sym, date<=x`date; 
 	} each 0!ca_split;
+
+{
+	.lg.out["applying options split to ", string[x`sym]];
+	factor:(x`new) % x`old;
+	update qty:qty*factor, cost:cost%factor from `opt_transaction where sym=x`newsym, date<=x`date; 
+	} each 0!ca_splitopt;
 
 position_current:update avg_cost: amount % qty from select sum amount, invested:sum {$[x~`BUY;y;0]}'[action;amount], sum qty, long_qty:sum {$[x~`BUY;y;0]}'[action;qty], last account  by sym  from transaction where action in (`BUY`SELL);
 position_current:select from position_current where qty > 1.0
